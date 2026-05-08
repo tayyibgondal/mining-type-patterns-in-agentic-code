@@ -3,3 +3,5 @@ venv/
 .env
 *.csv
 *.json
+overleaf_writeup/
+datasets/
