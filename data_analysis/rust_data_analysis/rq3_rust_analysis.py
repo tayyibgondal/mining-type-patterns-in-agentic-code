@@ -22,13 +22,31 @@ DATA_DIR = os.path.normpath(os.path.join(HERE, '..', '..', 'datasets', 'rust_dat
 OUT_DIR = os.path.join(HERE, 'figures_rq3')
 os.makedirs(OUT_DIR, exist_ok=True)
 
+# Publication-quality style, identical to the TS/C# and Rust final figures.
 plt.style.use('seaborn-v0_8-whitegrid')
 plt.rcParams['figure.dpi'] = 300
 plt.rcParams['savefig.dpi'] = 300
-plt.rcParams['font.size'] = 11
+plt.rcParams['font.size'] = 16
+plt.rcParams['axes.titlesize'] = 20
+plt.rcParams['axes.labelsize'] = 18
+plt.rcParams['xtick.labelsize'] = 16
+plt.rcParams['ytick.labelsize'] = 16
+plt.rcParams['legend.fontsize'] = 16
+plt.rcParams['font.family'] = 'sans-serif'
+plt.rcParams['font.sans-serif'] = ['Arial', 'Helvetica', 'DejaVu Sans']
 
 COLOR_AI = '#E74C3C'
 COLOR_HUMAN = '#3498DB'
+
+# Vibrant per-agent palette (Human always orange, last).
+_AGENT_COLORS = ['#E74C3C', '#9B59B6', '#3498DB', '#1ABC9C', '#16A085', '#2980B9']
+COLOR_HUMAN_BAR = '#F39C12'
+
+
+def category_colors(n):
+    cols = [_AGENT_COLORS[i % len(_AGENT_COLORS)] for i in range(max(n - 1, 0))]
+    cols.append(COLOR_HUMAN_BAR)
+    return cols[:n]
 
 
 def load_data():
@@ -103,9 +121,10 @@ def plot_overall(stats_dict):
     bars = ax.bar(labels, rates, color=[COLOR_AI, COLOR_HUMAN], alpha=0.85,
                   edgecolor='black', linewidth=1.5)
     ax.set_ylabel('Acceptance Rate (%)', fontweight='bold')
-    ax.set_title('Rust: PR Acceptance Rates', fontweight='bold')
+    ax.set_xlabel('Developer Type', fontweight='bold')
+    ax.set_title('Rust: PR Acceptance Rates', fontweight='bold', pad=20)
     ax.set_ylim(0, max(110, max(rates) + 15))
-    ax.grid(True, alpha=0.3, axis='y')
+    ax.grid(True, alpha=0.3, linestyle='--', axis='y')
 
     for bar, val in zip(bars, rates):
         ax.text(bar.get_x() + bar.get_width() / 2.0, bar.get_height(),
@@ -141,18 +160,18 @@ def plot_by_agent(agent_df, human_df, human_rate):
     df = pd.DataFrame(rows)
 
     bars = ax.bar(df['agent'], df['rate'],
-                  color=plt.cm.Set2(range(len(df))),
+                  color=category_colors(len(df)),
                   alpha=0.85, edgecolor='black', linewidth=1.5)
     ax.set_xlabel('Developer / Agent', fontweight='bold')
     ax.set_ylabel('Acceptance Rate (%)', fontweight='bold')
-    ax.set_title('Rust: Acceptance by Agent', fontweight='bold')
+    ax.set_title('Rust: Acceptance by Agent', fontweight='bold', pad=20)
     ax.set_ylim(0, max(110, df['rate'].max() + 15))
-    ax.grid(True, alpha=0.3, axis='y')
+    ax.grid(True, alpha=0.3, linestyle='--', axis='y')
     plt.xticks(rotation=15, ha='right')
     for bar, row in zip(bars, df.itertuples()):
         ax.text(bar.get_x() + bar.get_width() / 2.0, bar.get_height(),
                 f'{row.rate:.1f}%\n(n={row.total})',
-                ha='center', va='bottom', fontweight='bold', fontsize=10)
+                ha='center', va='bottom', fontweight='bold', fontsize=12)
 
     out = os.path.join(OUT_DIR, 'rq3_by_agent.png')
     plt.tight_layout()

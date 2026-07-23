@@ -26,13 +26,32 @@ DATA_DIR = os.path.normpath(os.path.join(HERE, '..', '..', 'datasets', 'rust_dat
 OUT_DIR = os.path.join(HERE, 'figures_rq2')
 os.makedirs(OUT_DIR, exist_ok=True)
 
+# Publication-quality style, identical to the TS/C# and Rust final figures.
 plt.style.use('seaborn-v0_8-whitegrid')
 plt.rcParams['figure.dpi'] = 300
 plt.rcParams['savefig.dpi'] = 300
-plt.rcParams['font.size'] = 11
+plt.rcParams['font.size'] = 16
+plt.rcParams['axes.titlesize'] = 20
+plt.rcParams['axes.labelsize'] = 18
+plt.rcParams['xtick.labelsize'] = 16
+plt.rcParams['ytick.labelsize'] = 16
+plt.rcParams['legend.fontsize'] = 16
+plt.rcParams['font.family'] = 'sans-serif'
+plt.rcParams['font.sans-serif'] = ['Arial', 'Helvetica', 'DejaVu Sans']
 
 COLOR_AI = '#E74C3C'
 COLOR_HUMAN = '#3498DB'
+
+# Vibrant per-agent palette (Human always orange, last) — matches the final
+# figures and replaces the pale Set2 colormap.
+_AGENT_COLORS = ['#E74C3C', '#9B59B6', '#3498DB', '#1ABC9C', '#16A085', '#2980B9']
+COLOR_HUMAN_BAR = '#F39C12'
+
+
+def category_colors(n):
+    cols = [_AGENT_COLORS[i % len(_AGENT_COLORS)] for i in range(max(n - 1, 0))]
+    cols.append(COLOR_HUMAN_BAR)
+    return cols[:n]
 
 # Same patterns as the extractors so AI and Human counts are comparable.
 RUST_FEATURES = {
@@ -206,16 +225,16 @@ def plot_feature_means(agent_feat, human_feat):
     height = 0.4
 
     ax.barh(y + height / 2, ai_means, height, label='AI Agent',
-            color=COLOR_AI, alpha=0.85, edgecolor='black', linewidth=1.0)
+            color=COLOR_AI, alpha=0.85, edgecolor='black', linewidth=1.5)
     ax.barh(y - height / 2, hu_means, height, label='Human',
-            color=COLOR_HUMAN, alpha=0.85, edgecolor='black', linewidth=1.0)
+            color=COLOR_HUMAN, alpha=0.85, edgecolor='black', linewidth=1.5)
 
     ax.set_yticks(y)
     ax.set_yticklabels(labels, fontweight='bold')
     ax.set_xlabel('Mean Usage per PR', fontweight='bold')
-    ax.set_title('Rust: Advanced Type Feature Usage', fontweight='bold')
-    ax.legend(loc='lower right', frameon=True, shadow=True)
-    ax.grid(True, alpha=0.3, axis='x')
+    ax.set_title('Rust: Advanced Type Feature Usage', fontweight='bold', pad=20)
+    ax.legend(loc='lower right', frameon=True, fancybox=True, shadow=True)
+    ax.grid(True, alpha=0.3, linestyle='--', axis='x')
 
     out = os.path.join(OUT_DIR, 'rq2_feature_means.png')
     plt.tight_layout()
@@ -240,14 +259,16 @@ def plot_agent_heatmap(agent_feat, human_feat):
 
     mat = pd.DataFrame(rows, index=index, columns=feature_cols)
 
-    fig, ax = plt.subplots(figsize=(14, max(4, 0.5 * len(index) + 2)))
-    sns.heatmap(mat, annot=True, fmt='.2f', cmap='Reds',
-                cbar_kws={'label': 'Mean per PR'}, ax=ax, linewidths=0.5)
+    fig, ax = plt.subplots(figsize=(16, max(5, 0.6 * len(index) + 2.5)))
+    sns.heatmap(mat, annot=True, fmt='.2f', cmap='YlOrRd',
+                cbar_kws={'label': 'Mean per PR'}, ax=ax, linewidths=0.5,
+                linecolor='white', annot_kws={'fontsize': 12, 'fontweight': 'bold'})
     ax.set_xlabel('Feature', fontweight='bold')
     ax.set_ylabel('Developer / Agent', fontweight='bold')
-    ax.set_title('Rust: Advanced Feature Usage by Agent', fontweight='bold')
-    plt.xticks(rotation=45, ha='right')
-    plt.yticks(rotation=0)
+    ax.set_title('Rust: Advanced Feature Usage by Agent', fontweight='bold', pad=20)
+    ax.figure.axes[-1].yaxis.label.set_size(16)  # colorbar label
+    plt.xticks(rotation=45, ha='right', fontsize=13)
+    plt.yticks(rotation=0, fontsize=14)
 
     out = os.path.join(OUT_DIR, 'rq2_feature_heatmap.png')
     plt.tight_layout()
@@ -271,12 +292,12 @@ def plot_diversity(agent_feat, human_feat):
     div = pd.DataFrame(rows)
 
     bars = ax.bar(div['agent'], div['unique'],
-                  color=plt.cm.Set2(range(len(div))),
+                  color=category_colors(len(div)),
                   alpha=0.85, edgecolor='black', linewidth=1.5)
     ax.set_xlabel('Developer / Agent', fontweight='bold')
     ax.set_ylabel('Mean Unique Features per PR', fontweight='bold')
-    ax.set_title('Rust: Feature Diversity by Agent', fontweight='bold')
-    ax.grid(True, alpha=0.3, axis='y')
+    ax.set_title('Rust: Feature Diversity by Agent', fontweight='bold', pad=20)
+    ax.grid(True, alpha=0.3, linestyle='--', axis='y')
     plt.xticks(rotation=15, ha='right')
     for bar in bars:
         ax.text(bar.get_x() + bar.get_width() / 2.0, bar.get_height(),

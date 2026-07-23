@@ -27,13 +27,18 @@ DATA_DIR = os.path.normpath(os.path.join(HERE, '..', '..', 'datasets', 'rust_dat
 OUT_DIR = os.path.join(HERE, 'figures_rq1')
 os.makedirs(OUT_DIR, exist_ok=True)
 
+# Publication-quality style, identical to the TS/C# and Rust final figures.
 plt.style.use('seaborn-v0_8-whitegrid')
-sns.set_palette("husl")
 plt.rcParams['figure.dpi'] = 300
 plt.rcParams['savefig.dpi'] = 300
-plt.rcParams['font.size'] = 11
-plt.rcParams['axes.titlesize'] = 13
-plt.rcParams['axes.labelsize'] = 12
+plt.rcParams['font.size'] = 16
+plt.rcParams['axes.titlesize'] = 20
+plt.rcParams['axes.labelsize'] = 18
+plt.rcParams['xtick.labelsize'] = 16
+plt.rcParams['ytick.labelsize'] = 16
+plt.rcParams['legend.fontsize'] = 16
+plt.rcParams['font.family'] = 'sans-serif'
+plt.rcParams['font.sans-serif'] = ['Arial', 'Helvetica', 'DejaVu Sans']
 
 COLOR_AI = '#E74C3C'
 COLOR_HUMAN = '#3498DB'
@@ -138,13 +143,20 @@ def plot_unsafe_distribution(agent_metrics, human_metrics):
     if len(a_pos) > 0 and len(h_pos) > 0:
         bp = ax.boxplot(
             [a_pos, h_pos],
-            labels=['AI Agent', 'Human'],
             patch_artist=True,
             showmeans=True,
+            widths=0.6,
+            medianprops=dict(color='black', linewidth=2),
+            meanprops=dict(marker='D', markerfacecolor='yellow',
+                           markeredgecolor='black', markersize=8),
         )
         for patch, color in zip(bp['boxes'], [COLOR_AI, COLOR_HUMAN]):
             patch.set_facecolor(color)
-            patch.set_alpha(0.85)
+            patch.set_alpha(0.8)
+            patch.set_edgecolor('black')
+            patch.set_linewidth(1.5)
+        ax.set_xticks([1, 2])
+        ax.set_xticklabels(['AI Agent', 'Human'])
         ax.set_yscale('log')
     else:
         # Fallback: bar of means even if one side is empty
@@ -157,8 +169,9 @@ def plot_unsafe_distribution(agent_metrics, human_metrics):
         )
 
     ax.set_ylabel('"unsafe" Additions per PR (log scale)', fontweight='bold')
-    ax.set_title('Rust: "unsafe" Additions per PR', fontweight='bold')
-    ax.grid(True, alpha=0.3, axis='y')
+    ax.set_xlabel('Developer Type', fontweight='bold')
+    ax.set_title('Rust: "unsafe" Additions per PR', fontweight='bold', pad=20)
+    ax.grid(True, alpha=0.3, linestyle='--', axis='y')
 
     out = os.path.join(OUT_DIR, 'rq1_unsafe_additions_box.png')
     plt.tight_layout()
@@ -195,11 +208,11 @@ def plot_agent_breakdown(agent_metrics, human_metrics):
 
     ax.set_xlabel('Developer / Agent', fontweight='bold')
     ax.set_ylabel('Total "unsafe" Operations', fontweight='bold')
-    ax.set_title('Rust: "unsafe" Operations by Agent', fontweight='bold')
+    ax.set_title('Rust: "unsafe" Operations by Agent', fontweight='bold', pad=20)
     ax.set_xticks(x)
     ax.set_xticklabels(breakdown['agent'], rotation=15, ha='right', fontweight='bold')
-    ax.legend(loc='upper right', frameon=True, shadow=True)
-    ax.grid(True, alpha=0.3, axis='y')
+    ax.legend(loc='upper right', frameon=True, fancybox=True, shadow=True)
+    ax.grid(True, alpha=0.3, linestyle='--', axis='y')
 
     for bars in [bars1, bars2]:
         for bar in bars:
@@ -234,9 +247,9 @@ def plot_secondary_escape_hatches(agent_df, human_df):
         bars = ax.bar(['AI Agent', 'Human'], [ai_mean, hu_mean],
                       color=[COLOR_AI, COLOR_HUMAN], alpha=0.85,
                       edgecolor='black', linewidth=1.2)
-        ax.set_title(f'Mean {title} per PR', fontweight='bold')
+        ax.set_title(f'Mean {title} per PR', fontweight='bold', pad=20)
         ax.set_ylabel('Mean per PR', fontweight='bold')
-        ax.grid(True, alpha=0.3, axis='y')
+        ax.grid(True, alpha=0.3, linestyle='--', axis='y')
         for bar in bars:
             h = bar.get_height()
             ax.text(bar.get_x() + bar.get_width() / 2.0, h,

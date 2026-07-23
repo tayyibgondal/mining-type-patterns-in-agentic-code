@@ -24,18 +24,35 @@ DATA_DIR = os.path.normpath(os.path.join(HERE, '..', '..', 'datasets', 'rust_dat
 OUT_DIR = os.path.join(HERE, 'final_figures')
 os.makedirs(OUT_DIR, exist_ok=True)
 
+# Publication-quality style matching the TypeScript / C# figures.
 plt.style.use('seaborn-v0_8-whitegrid')
 plt.rcParams['figure.dpi'] = 300
 plt.rcParams['savefig.dpi'] = 300
 plt.rcParams['font.size'] = 16
 plt.rcParams['axes.titlesize'] = 20
 plt.rcParams['axes.labelsize'] = 18
-plt.rcParams['xtick.labelsize'] = 14
-plt.rcParams['ytick.labelsize'] = 14
-plt.rcParams['legend.fontsize'] = 14
+plt.rcParams['xtick.labelsize'] = 16
+plt.rcParams['ytick.labelsize'] = 16
+plt.rcParams['legend.fontsize'] = 16
+plt.rcParams['font.family'] = 'sans-serif'
+plt.rcParams['font.sans-serif'] = ['Arial', 'Helvetica', 'DejaVu Sans']
 
-COLOR_AI = '#E74C3C'
-COLOR_HUMAN = '#3498DB'
+# Striking two-colour palette for AI-vs-Human comparisons.
+COLOR_AI = '#E74C3C'     # vibrant red
+COLOR_HUMAN = '#3498DB'  # vibrant blue
+
+# Vibrant per-agent palette (Human always rendered in orange, last).
+# Mirrors the explicit palette used by the TS/C# figures instead of the
+# pale Set2 colormap, so the multi-bar charts read as the same "family".
+_AGENT_COLORS = ['#E74C3C', '#9B59B6', '#3498DB', '#1ABC9C', '#16A085', '#2980B9']
+COLOR_HUMAN_BAR = '#F39C12'  # orange, reserved for the Human category
+
+
+def category_colors(n):
+    """Vibrant colours for n categories where the final one is 'Human'."""
+    cols = [_AGENT_COLORS[i % len(_AGENT_COLORS)] for i in range(max(n - 1, 0))]
+    cols.append(COLOR_HUMAN_BAR)
+    return cols[:n]
 
 # Same feature pattern set used by the analysis scripts.
 RUST_FEATURES = {
@@ -121,11 +138,18 @@ def generate_rq1_figures(agent_dyn, human_dyn):
 
     fig, ax = plt.subplots(figsize=(8, 6))
     if len(a_pos) > 0 and len(h_pos) > 0:
-        bp = ax.boxplot([a_pos, h_pos], labels=['AI Agent', 'Human'],
-                        patch_artist=True, showmeans=True)
+        bp = ax.boxplot([a_pos, h_pos],
+                        patch_artist=True, showmeans=True, widths=0.6,
+                        medianprops=dict(color='black', linewidth=2),
+                        meanprops=dict(marker='D', markerfacecolor='yellow',
+                                       markeredgecolor='black', markersize=8))
         for patch, color in zip(bp['boxes'], [COLOR_AI, COLOR_HUMAN]):
             patch.set_facecolor(color)
-            patch.set_alpha(0.85)
+            patch.set_alpha(0.8)
+            patch.set_edgecolor('black')
+            patch.set_linewidth(1.5)
+        ax.set_xticks([1, 2])
+        ax.set_xticklabels(['AI Agent', 'Human'])
         ax.set_yscale('log')
     else:
         means = [agent_dyn['unsafe_additions'].mean(),
@@ -136,7 +160,7 @@ def generate_rq1_figures(agent_dyn, human_dyn):
     ax.set_ylabel('"unsafe" Additions per PR', fontweight='bold')
     ax.set_xlabel('Developer Type', fontweight='bold')
     ax.set_title('Rust: "unsafe" Additions', fontweight='bold', pad=20)
-    ax.grid(True, alpha=0.3)
+    ax.grid(True, alpha=0.3, linestyle='--')
     plt.tight_layout()
     plt.savefig(os.path.join(OUT_DIR, 'fig1_rq1_unsafe_additions.png'),
                 bbox_inches='tight', dpi=300)
@@ -171,8 +195,8 @@ def generate_rq1_figures(agent_dyn, human_dyn):
     ax.set_title('Rust: "unsafe" Operations by Agent', fontweight='bold', pad=20)
     ax.set_xticks(x)
     ax.set_xticklabels(breakdown['agent'], rotation=15, ha='right', fontweight='bold')
-    ax.legend(loc='upper right', frameon=True, shadow=True)
-    ax.grid(True, alpha=0.3, axis='y')
+    ax.legend(loc='upper right', frameon=True, fancybox=True, shadow=True)
+    ax.grid(True, alpha=0.3, linestyle='--', axis='y')
     for bars in [bars1, bars2]:
         for bar in bars:
             h = bar.get_height()
@@ -220,13 +244,13 @@ def generate_rq2_figures(agent_feat, human_feat, agent_df=None, human_df=None):
     rows.append({'agent': 'Human', 'unique': human_feat['unique_features'].mean()})
     div = pd.DataFrame(rows)
     bars = ax.bar(div['agent'], div['unique'],
-                  color=plt.cm.Set2(range(len(div))),
+                  color=category_colors(len(div)),
                   alpha=0.85, edgecolor='black', linewidth=1.5)
     ax.set_xlabel('Developer / Agent', fontweight='bold')
     ax.set_ylabel('Mean Unique Features', fontweight='bold')
     ax.set_title('Rust: Feature Diversity by Agent', fontweight='bold', pad=20)
     plt.xticks(rotation=15, ha='right')
-    ax.grid(True, alpha=0.3, axis='y')
+    ax.grid(True, alpha=0.3, linestyle='--', axis='y')
     for bar, val in zip(bars, div['unique']):
         ax.text(bar.get_x() + bar.get_width() / 2.0, bar.get_height(),
                 f'{val:.2f}', ha='center', va='bottom',
@@ -258,8 +282,8 @@ def generate_rq2_figures(agent_feat, human_feat, agent_df=None, human_df=None):
     ax.set_yticklabels(labels, fontweight='bold')
     ax.set_xlabel('Mean Usage per PR', fontweight='bold')
     ax.set_title('Rust: Advanced Feature Usage', fontweight='bold', pad=20)
-    ax.legend(loc='lower right', frameon=True, shadow=True)
-    ax.grid(True, alpha=0.3, axis='x')
+    ax.legend(loc='lower right', frameon=True, fancybox=True, shadow=True)
+    ax.grid(True, alpha=0.3, linestyle='--', axis='x')
     plt.tight_layout()
     plt.savefig(os.path.join(OUT_DIR, 'fig4_rq2_feature_usage.png'),
                 bbox_inches='tight', dpi=300)
@@ -318,8 +342,8 @@ def generate_rq2_figures(agent_feat, human_feat, agent_df=None, human_df=None):
     ax.set_yticklabels(feat_labels, fontweight='bold')
     ax.set_xlabel('Mean Usage per PR', fontweight='bold')
     ax.set_title('Rust: Type-Safety Anti-Pattern Usage', fontweight='bold', pad=20)
-    ax.legend(loc='lower right', frameon=True, shadow=True)
-    ax.grid(True, alpha=0.3, axis='x')
+    ax.legend(loc='lower right', frameon=True, fancybox=True, shadow=True)
+    ax.grid(True, alpha=0.3, linestyle='--', axis='x')
     plt.tight_layout()
     plt.savefig(os.path.join(OUT_DIR, 'fig5_rq2_safety_features.png'),
                 bbox_inches='tight', dpi=300)
@@ -371,7 +395,7 @@ def generate_rq3_figures(agent_df, human_df):
     ax.set_xlabel('Developer Type', fontweight='bold')
     ax.set_title('Rust: PR Acceptance Rates', fontweight='bold', pad=20)
     ax.set_ylim(0, max(110, max(a_pct, h_pct) + 15))
-    ax.grid(True, alpha=0.3, axis='y')
+    ax.grid(True, alpha=0.3, linestyle='--', axis='y')
     for bar in bars:
         ax.text(bar.get_x() + bar.get_width() / 2.0, bar.get_height(),
                 f'{bar.get_height():.1f}%', ha='center', va='bottom',
@@ -396,14 +420,14 @@ def generate_rq3_figures(agent_df, human_df):
     df = pd.DataFrame(rows)
 
     bars = ax.bar(df['agent'], df['rate'],
-                  color=plt.cm.Set2(range(len(df))),
+                  color=category_colors(len(df)),
                   alpha=0.85, edgecolor='black', linewidth=1.5)
     ax.set_xlabel('Developer / Agent', fontweight='bold')
     ax.set_ylabel('Acceptance Rate (%)', fontweight='bold')
     ax.set_title('Rust: Acceptance by Agent', fontweight='bold', pad=20)
     ax.set_ylim(0, max(110, df['rate'].max() + 15))
     plt.xticks(rotation=15, ha='right')
-    ax.grid(True, alpha=0.3, axis='y')
+    ax.grid(True, alpha=0.3, linestyle='--', axis='y')
     for bar, row in zip(bars, df.itertuples()):
         ax.text(bar.get_x() + bar.get_width() / 2.0, bar.get_height(),
                 f'{row.rate:.1f}%\n(n={int(row.total)})',

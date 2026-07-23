@@ -5,3 +5,5 @@ venv/
 *.json
 overleaf_writeup/
 datasets/
+
+.claude/settings.local.json
