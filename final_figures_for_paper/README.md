@@ -66,10 +66,38 @@ Nets (TS): +62, −539, +505, +2,063, +750 · (C#): +81, 0, +9.
 
 Per-agent n: Claude Code 12, Copilot 46, Cursor 19, Devin 74, Codex 139.
 
-> **Caption.** Additions and removals of (a) `unsafe`, (b) `.unwrap()` and
-> (c) `.expect()` per AI agent in Rust type-related PRs; panels use independent
-> x-axes. Codex accounts for most `unsafe` churn (329 added vs. 28 removed, net +301);
-> every agent adds more `.unwrap()` than it removes (nets +20 to +346).
+> **Caption.** Mean additions and removals per PR of (a) `unsafe`, (b) `.unwrap()`
+> and (c) `.expect()` per AI agent in Rust type-related PRs; panels use independent
+> x-axes. Codex leads `unsafe` churn (2.4 additions per PR; 329 added vs. 28 removed
+> in total); every agent adds more `.unwrap()` than it removes.
+
+### `fig6_typescript_escape_constructs_by_agent` — TypeScript per agent
+
+Same design as fig4. Per-agent n: Claude Code 34, Copilot 109, Cursor 77, Devin 297,
+Codex 131. Additions/removals — `any`: 624/562, 1,597/2,136, 849/344, 3,763/1,700,
+1,308/558 · non-null `!`: 35/26, 191/99, 158/72, 877/179, 215/119 ·
+`@ts-ignore`+`@ts-expect-error`: 124/2, 21/37, 29/13, 127/125, 98/29 (agent order as above).
+
+> **Caption.** Mean additions and removals per PR of (a) `any`, (b) the non-null
+> assertion operator and (c) `@ts-ignore` / `@ts-expect-error` suppression directives
+> per AI agent in TypeScript type-related PRs; panels use independent x-axes. Copilot
+> is the only agent that removes more `any` than it adds (total 1,597 vs. 2,136);
+> Devin leads non-null assertions (3.0 added per PR vs. 0.6 removed); Claude Code adds
+> suppression directives almost without ever removing them (3.6 vs. 0.06 per PR;
+> 124 vs. 2 in total).
+
+### `fig7_csharp_escape_constructs_by_agent` — C# per agent
+
+Same design as fig4. Per-agent n: Copilot 359, Cursor 4, Codex 346 (no Claude Code or
+Devin C# PRs). Additions/removals — `dynamic`: 160/79, 1/1, 19/10 · null-forgiving
+`!`: 654/361, 0/0, 298/11 · `#nullable disable`: 672/266, 0/0, 0/0.
+
+> **Caption.** Mean additions and removals per PR of (a) `dynamic`, (b) the
+> null-forgiving operator and (c) `#nullable disable` directives per AI agent in C#
+> type-related PRs; panels use independent x-axes. Copilot is the only agent that uses
+> `#nullable disable` (1.9 added per PR; 672 vs. 266 in total); Codex adds the
+> null-forgiving operator while almost never removing it (0.86 vs. 0.03 per PR).
+> Cursor's bars rest on 4 PRs (hatched).
 
 ### `fig5_feature_diversity_by_agent` — diversity, all languages in one chart
 
@@ -108,7 +136,7 @@ stay identical across the paper. Fonts are embedded TrueType Helvetica.
 _style.py                shared palette, typography, layout helpers, data loading
 fig1_escape_hatches.py
 fig2_feature_usage.py    (emits fig2 and fig2b)
-fig3_4_by_agent.py       (emits fig3 and fig4)
+fig3_4_by_agent.py       (emits fig3, fig4, fig6, fig7)
 fig5_feature_diversity.py
 make_all.py              regenerates all six
 ```

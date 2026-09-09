@@ -1,0 +1,44 @@
+% Table: PR acceptance rates in type-related PRs (LLM-confirmed sets).
+%
+% Every column sums to 100.0. Cell definitions:
+%   Merged  = merged_at set
+%   Closed  = state closed AND not merged
+%   Open    = state open
+%
+% Data notes (verify against README.md / all_languages_statistical_analysis.py):
+% * TypeScript human: the classified CSV holds 269 rows, but 189 of them are
+%   duplicates of only 21 unique PRs with all metadata stripped (an artifact of
+%   the dataset merge). After de-duplication the human set is 101 unique PRs;
+%   the 21 recovered PRs' statuses were re-joined from human_pr_data.csv via
+%   patch-text fingerprint (16 merged, 3 closed, 2 open).
+% * C# and Rust human corpora were collected from merged PRs only, so their
+%   100% acceptance is by construction and NOT comparable to the AI columns;
+%   the dagger footnote flags this.
+
+\begin{table*}[!t]
+\caption{Pull-request acceptance in type-related PRs for TypeScript, C\#, and Rust.}
+\centering
+\small
+\renewcommand{\arraystretch}{0.87}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrrrr@{}}
+\toprule
+\multirow{2.5}{*}{\textbf{PR Status}} & \multicolumn{2}{c}{\textbf{TypeScript (\%)}} & \multicolumn{2}{c}{\textbf{C\# (\%)}} & \multicolumn{2}{c}{\textbf{Rust (\%)}} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+ & \textbf{AI Agent} & \textbf{Human} & \textbf{AI Agent} & \textbf{Human}$^\dagger$ & \textbf{AI Agent} & \textbf{Human}$^\dagger$ \\
+\midrule
+Merged (Accepted)   & 45.8 &  83.2 & 56.7 & 100.0 & 60.3 & 100.0 \\
+Closed (Rejected)   & 42.6 &   9.9 & 32.3 &   0.0 & 23.8 &   0.0 \\
+Open (Pending)      & 11.6 &   6.9 & 11.0 &   0.0 & 15.9 &   0.0 \\
+\midrule
+Number of PRs       &  648 &   101 &  709 &    44 &  290 &    52 \\
+\bottomrule
+\end{tabular*}
+\begin{minipage}{\textwidth}
+\vspace{2pt}\footnotesize
+$^\dagger$The C\# and Rust human corpora were sampled from merged PRs only, so their
+acceptance rate is 100\% by construction and is not comparable to the AI columns.
+The TypeScript human corpus is de-duplicated to 101 unique PRs (the raw classified
+file repeats 21 PRs without metadata).
+\end{minipage}
+\label{tab:pr_rates}
+\end{table*}
