@@ -1,0 +1,3 @@
+[submodule "FSE2027"]
+	path = FSE2027
+	url = git@github.com:ImgyeongLee/FSE2027.git
