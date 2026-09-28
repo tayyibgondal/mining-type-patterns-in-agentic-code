@@ -7,3 +7,4 @@ overleaf_writeup/
 datasets/
 
 .claude/settings.local.json
+.DS_Store
