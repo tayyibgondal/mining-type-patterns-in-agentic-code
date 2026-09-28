@@ -18,6 +18,7 @@ SCRIPTS = [
     'fig2_feature_usage.py',
     'fig3_4_by_agent.py',
     'fig5_feature_diversity.py',
+    'fig6_8_escape_distributions.py',
 ]
 
 for script in SCRIPTS:

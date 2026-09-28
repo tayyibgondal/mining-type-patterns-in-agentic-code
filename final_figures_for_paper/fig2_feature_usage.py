@@ -1,98 +1,117 @@
-"""Figure 2 - advanced type-feature usage, AI vs. human, three languages.
+"""Figures 2-4 - every tracked type construct, one language per figure.
 
-a  TypeScript (20 features)   b  C# (12)   c  Rust (19)
-Paired horizontal bars, features sorted by AI mean within each language.
-Constant bar thickness across panels; sample sizes and counting rules go in
-the caption, not on the canvas.
+One row per construct, ordered by the AI mean of panel a. Two panels share that
+row:
 
-Variants:
-  fig2_feature_usage           mean occurrences per PR
-  fig2b_feature_usage_per100   mean occurrences per 100 changed lines
-                               (controls for AI PRs being ~3x larger)
+  a  mean occurrences added per PR
+  b  mean occurrences added per 100 changed lines
+
+Both are shown for the same reason fig1 shows both. Agent PRs carry three to
+five times more added lines than human PRs at the median, so panel a rewards a
+group for writing more code and panel b does not. Several constructs change
+which group leads between the two panels. Reporting either one alone would be a
+choice about the conclusion rather than about the presentation.
+
+This replaces the old three-panel fig2 and its fig2b twin. Three languages side
+by side left roughly a third of an inch of bar for constructs whose names run to
+thirty characters, which is not a figure anyone can read. One language per
+figure gives the labels the width they need.
 """
 
 import numpy as np
 import pandas as pd
 
-from _style import (C_AI, C_HUMAN, FS_LABEL, FS_TICK, feature_frame, load_lang,
-                    panel_label, pretty_feature, save, text_width_in, tidy,
-                    use_paper_style)
 import matplotlib.pyplot as plt
-import all_languages_statistical_analysis as S
+
+from _style import (C_AI, C_HUMAN, FIG_H_L, FIG_H_M, FS_ANNOT, FS_LABEL,
+                    FS_LETTER, FS_TICK, FS_TITLE, INK, INK_3, TEXT_W,
+                    analysed_keys, bottom_legend, feature_frame, load_lang,
+                    pretty_feature, row_separators, save, text_width_in, tidy,
+                    use_paper_style)
 
 use_paper_style()
 
-LANGS = ['TypeScript', 'C#', 'Rust']
+# Height class per language, chosen from the construct count so the three
+# figures share a footprint with the rest of the paper rather than each other.
+LANGS = [('TypeScript', 'fig2_typescript_construct_usage', FIG_H_L),
+         ('C#', 'fig3_csharp_construct_usage', FIG_H_M),
+         ('Rust', 'fig4_rust_construct_usage', FIG_H_L)]
+
+FIG_W = TEXT_W
+CHROME = 1.12          # inches of axis labels, title row and legend
+OFFSET = 0.215
+BAR_H = 0.36
 
 
-def collect(normalise):
-    """Return {lang: DataFrame(feature, ai, human)} sorted by AI value desc."""
-    out = {}
-    for lang in LANGS:
-        a_df, h_df = load_lang(lang)
-        feats = list(S.LANGUAGES[lang]['features'])
-        rows = []
-        for df, key in ((a_df, 'ai'), (h_df, 'human')):
-            f = feature_frame(lang, df)
-            if normalise:
-                chg = pd.to_numeric(df['changes'], errors='coerce').fillna(0).values
-                scale = np.where(chg > 0, chg, np.nan)
-                vals = {c: np.nanmean(f[c].values / scale) * 100 for c in feats}
-            else:
-                vals = {c: f[c].mean() for c in feats}
-            rows.append(pd.Series(vals, name=key))
-        d = pd.concat(rows, axis=1).reset_index().rename(columns={'index': 'feature'})
-        out[lang] = d.sort_values('ai', ascending=False).reset_index(drop=True)
-    return out
+def collect(lang):
+    """DataFrame(feature, ai, human, ai_p100, human_p100), AI-mean order."""
+    a_df, h_df = load_lang(lang)
+    feats = analysed_keys(lang)
+    columns = {}
+    for df, key in ((a_df, 'ai'), (h_df, 'human')):
+        f = feature_frame(lang, df)
+        scale = df['denom_lines'].to_numpy(dtype=float)
+        columns[key] = pd.Series({c: f[c].mean() for c in feats})
+        # `denom_lines` is lines added in countable source files, the same
+        # denominator the statistics module uses. NOT `changes`, which in the
+        # rebuilt schema counts changed FILES; dividing constructs by a file
+        # count silently produced a different figure from the statistics.
+        columns[key + '_p100'] = pd.Series(
+            {c: float(np.mean(f[c].to_numpy(dtype=float) / scale)) * 100
+             for c in feats})
+    d = pd.concat(columns, axis=1).reset_index().rename(
+        columns={'index': 'feature'})
+    return d.sort_values('ai', ascending=False).reset_index(drop=True)
 
 
-def render(data, name, xlabel):
-    tallest = max(len(d) for d in data.values())
+def draw(lang, name, fig_h):
+    d = collect(lang)
+    n = len(d)
+    # Row height follows from the fixed figure height rather than the reverse.
+    row_h = (fig_h - CHROME) / n
+    fig = plt.figure(figsize=(FIG_W, fig_h))
 
-    ROW_H = 0.168                      # inches per feature row - constant across panels
-    TOP, BOTTOM = 0.46, 0.62           # inches of chrome
-    fig_h = tallest * ROW_H + TOP + BOTTOM
-    fig_w = 7.16
-    fig = plt.figure(figsize=(fig_w, fig_h))
+    label_w = max(text_width_in(fig, pretty_feature(f), FS_TICK)
+                  for f in d['feature']) + 0.14
+    gs = fig.add_gridspec(1, 2, wspace=0.09,
+                          left=label_w / FIG_W, right=0.99,
+                          top=1 - 0.40 / fig_h, bottom=0.72 / fig_h)
 
-    # gutters sized to the widest feature label in each panel
-    gutter = [max(text_width_in(fig, pretty_feature(f), FS_TICK)
-                  for f in data[lang]['feature']) + 0.06 for lang in LANGS]
+    y = np.arange(n)[::-1].astype(float)
+    panels = []
+    for k, (ai_col, hu_col, xlabel) in enumerate((
+            ('ai', 'human', 'Mean added per PR'),
+            ('ai_p100', 'human_p100', 'Mean added per 100 changed lines'))):
+        ax = fig.add_subplot(gs[0, k], sharey=panels[0] if panels else None)
+        panels.append(ax)
+        ax.barh(y + OFFSET, d[ai_col], height=BAR_H, color=C_AI, zorder=3)
+        ax.barh(y - OFFSET, d[hu_col], height=BAR_H, color=C_HUMAN, zorder=3)
+        ax.set_xlim(0, max(d[ai_col].max(), d[hu_col].max()) * 1.04)
+        ax.set_xlabel(xlabel, fontsize=FS_LABEL)
+        tidy(ax, orient='h')
+        row_separators(ax, y)
 
-    LEFT, RIGHT, GAP = 0.02, 0.06, 0.28
-    panel_in = (fig_w - LEFT - RIGHT - sum(gutter) - 2 * GAP) / 3
+    ax = panels[0]
+    ax.set_yticks(y)
+    ax.set_yticklabels([pretty_feature(f) for f in d['feature']],
+                       fontsize=FS_TICK)
+    ax.set_ylim(-0.7, n - 0.3)
+    plt.setp(panels[1].get_yticklabels(), visible=False)
 
-    h_frac = (tallest * ROW_H) / fig_h   # every panel spans the same height
-    x_cursor = LEFT
-    for k, lang in enumerate(LANGS):
-        d = data[lang]
-        x0 = (x_cursor + gutter[k]) / fig_w
-        ax = fig.add_axes([x0, 1 - TOP / fig_h - h_frac, panel_in / fig_w, h_frac])
-        x_cursor += gutter[k] + panel_in + GAP
-
-        y = np.arange(len(d))[::-1]
-        bh = 0.36
-        ax.barh(y + bh / 2 + 0.03, d['ai'], height=bh, color=C_AI, zorder=3)
-        ax.barh(y - bh / 2 - 0.03, d['human'], height=bh, color=C_HUMAN, zorder=3)
-
-        xmax = max(d['ai'].max(), d['human'].max())
-        ax.set_yticks(y)
-        ax.set_yticklabels([pretty_feature(f) for f in d['feature']], fontsize=FS_TICK)
-        ax.set_ylim(-0.75, len(d) - 0.25)
-        ax.set_xlim(0, xmax * 1.06)
-        ax.tick_params(axis='y', length=0, pad=2.5)
-        tidy(ax, axis='x')
-        ax.spines['left'].set_visible(False)
-        ax.set_xlabel(xlabel, fontsize=FS_LABEL, labelpad=3)
-
-        panel_label(fig, x0 - gutter[k] / fig_w, 1 - 0.24 / fig_h, 'abc'[k], lang)
+    base = 1 - 0.155 / fig_h
+    fig.text(0.004, base, lang, fontsize=FS_TITLE, color=INK, ha='left',
+             va='baseline', fontweight='bold')
+    for letter, panel in zip('ab', panels):
+        fig.text(panel.get_position().x0, base, letter, fontsize=FS_LETTER,
+                 fontweight='bold', color=INK, ha='left', va='baseline')
 
     handles = [plt.Rectangle((0, 0), 1, 1, facecolor=C_AI),
                plt.Rectangle((0, 0), 1, 1, facecolor=C_HUMAN)]
-    fig.legend(handles, ['AI agents', 'Human developers'], loc='lower center',
-               bbox_to_anchor=(0.5, 0.0), ncol=2, fontsize=FS_LABEL)
+    bottom_legend(fig, handles, ['AI agents', 'Human developers'], x=0.55)
     save(fig, name)
+    print(f'  {lang}: {n} constructs, {fig_h:.2f} in tall, '
+          f'{row_h:.3f} in per row')
 
 
-render(collect(False), 'fig2_feature_usage', 'Mean per PR')
-render(collect(True), 'fig2b_feature_usage_per100', 'Mean per 100 changed lines')
+for lang, name, fig_h in LANGS:
+    draw(lang, name, fig_h)
