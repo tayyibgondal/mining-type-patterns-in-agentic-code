@@ -1,0 +1,499 @@
+[12:58:34] freeCodeCamp/freeCodeCamp (455357★): scanning PRs
+[13:07:06] resuming: 34 rows already in result/human_ts_prs.csv, 0 repos done
+[13:07:10] freeCodeCamp/freeCodeCamp (455357★): scanning PRs
+[13:07:25] freeCodeCamp/freeCodeCamp: scanned 250, written 0
+[13:07:38] freeCodeCamp/freeCodeCamp: scanned 500, written 0
+[13:07:49] freeCodeCamp/freeCodeCamp: scanned 750, written 0
+[13:07:59] freeCodeCamp/freeCodeCamp: scanned 1000, written 0
+[13:08:19] freeCodeCamp/freeCodeCamp: scanned 1250, written 0
+[13:08:29] freeCodeCamp/freeCodeCamp: scanned 1500, written 0
+[13:08:42] freeCodeCamp/freeCodeCamp: scanned 1750, written 0
+[13:08:53] freeCodeCamp/freeCodeCamp: scanned 2000, written 0
+[13:09:05] freeCodeCamp/freeCodeCamp: scanned 2250, written 0
+[13:09:20] freeCodeCamp/freeCodeCamp: scanned 2500, written 0
+[13:09:34] freeCodeCamp/freeCodeCamp: scanned 2750, written 0
+[13:09:55] freeCodeCamp/freeCodeCamp: scanned 3000, written 0
+[13:10:01] freeCodeCamp/freeCodeCamp: {'scanned': 3000, 'commit_after_cutoff': 11, 'bot_or_ghost_author': 830, 'dependency_lockfile': 20, 'no_ts_files': 2105, 'already_written': 34, 'hit_scan_limit': 1} | total rows 34
+[13:10:01] nilbuild/developer-roadmap (366974★): scanning PRs
+[13:10:25] nilbuild/developer-roadmap: {'scanned': 194, 'no_ts_files': 192, 'bot_or_ghost_author': 2} | total rows 34
+[13:10:25] vuejs/vue (212465★): scanning PRs
+[13:10:55] vuejs/vue: scanned 250, written 15
+[13:11:24] vuejs/vue: scanned 500, written 34
+[13:12:03] vuejs/vue: scanned 750, written 72
+[13:12:37] vuejs/vue: scanned 1000, written 101
+[13:13:10] vuejs/vue: scanned 1250, written 118
+[13:13:38] vuejs/vue: scanned 1500, written 129
+[13:14:07] vuejs/vue: scanned 1750, written 148
+[13:14:26] vuejs/vue: scanned 2000, written 148
+[13:14:27] vuejs/vue: {'scanned': 2005, 'bot_or_ghost_author': 158, 'no_ts_files': 1668, 'written': 148, 'pending': 23, 'diff_over_max_bytes': 1, 'dependency_lockfile': 19, 'rejected': 48, 'merged': 77, 'commit_after_cutoff': 2, 'body_edited_after_cutoff': 1, 'diff_too_large_for_api': 1, 'no_commits': 1, 'dependency_title': 1, 'dependency_package_json': 5} | total rows 182
+[13:14:27] n8n-io/n8n (204098★): scanning PRs
+[13:16:13] n8n-io/n8n: scanned 250, written 165
+[13:17:39] n8n-io/n8n: {'scanned': 412, 'commit_after_cutoff': 22, 'written': 300, 'merged': 220, 'no_ts_files': 46, 'rejected': 80, 'dependency_package_json': 24, 'bot_or_ghost_author': 18, 'diff_too_large_for_api': 2} | total rows 482
+[13:17:39] microsoft/vscode (192044★): scanning PRs
+[13:19:33] microsoft/vscode: scanned 250, written 200
+[13:20:35] microsoft/vscode: {'scanned': 375, 'written': 300, 'merged': 243, 'no_ts_files': 42, 'commit_after_cutoff': 14, 'rejected': 57, 'bot_or_ghost_author': 6, 'dependency_lockfile': 12, 'dependency_package_json': 1} | total rows 782
+[13:20:35] yangshun/tech-interview-handbook (142584★): scanning PRs
+[13:20:53] yangshun/tech-interview-handbook: {'scanned': 177, 'bot_or_ghost_author': 15, 'no_ts_files': 162} | total rows 782
+[13:20:53] iptv-org/iptv (138422★): scanning PRs
+[13:21:16] iptv-org/iptv: scanned 250, written 0
+[13:21:37] iptv-org/iptv: scanned 500, written 0
+[13:21:58] iptv-org/iptv: scanned 750, written 0
+[13:22:21] iptv-org/iptv: scanned 1000, written 0
+[13:22:43] iptv-org/iptv: scanned 1250, written 0
+[13:23:05] iptv-org/iptv: scanned 1500, written 0
+[13:23:26] iptv-org/iptv: scanned 1750, written 0
+[13:23:45] iptv-org/iptv: scanned 2000, written 0
+[13:23:58] iptv-org/iptv: {'scanned': 2183, 'no_ts_files': 2078, 'bot_or_ghost_author': 105} | total rows 782
+[13:23:58] excalidraw/excalidraw (131673★): scanning PRs
+[13:24:54] excalidraw/excalidraw: scanned 250, written 74
+[13:25:47] excalidraw/excalidraw: scanned 500, written 147
+[13:26:52] excalidraw/excalidraw: scanned 750, written 241
+[13:27:34] excalidraw/excalidraw: {'scanned': 912, 'written': 300, 'merged': 260, 'bot_or_ghost_author': 437, 'no_ts_files': 147, 'commit_after_cutoff': 7, 'dependency_lockfile': 19, 'pending': 10, 'rejected': 30, 'diff_too_large_for_api': 1, 'dependency_title': 1} | total rows 1082
+[13:27:34] supabase/supabase (109086★): scanning PRs
+[13:28:13] supabase/supabase: scanned 250, written 27
+[13:28:52] supabase/supabase: scanned 500, written 52
+[13:28:58] supabase/supabase: {'scanned': 565, 'no_ts_files': 370, 'dependency_title': 1, 'dependency_lockfile': 21, 'bot_or_ghost_author': 117, 'written': 52, 'rejected': 9, 'merged': 43, 'dependency_package_json': 4} | total rows 1134
+[13:28:58] angular/angular (100994★): scanning PRs
+[13:30:02] angular/angular: scanned 250, written 86
+[13:31:11] angular/angular: scanned 500, written 177
+[13:32:10] angular/angular: scanned 750, written 252
+[13:32:47] angular/angular: {'scanned': 853, 'commit_after_cutoff': 24, 'no_ts_files': 382, 'written': 300, 'rejected': 298, 'dependency_lockfile': 24, 'bot_or_ghost_author': 115, 'diff_too_large_for_api': 4, 'merged': 2, 'dependency_package_json': 3, 'dependency_title': 1} | total rows 1434
+[13:32:47] ant-design/ant-design (99491★): scanning PRs
+[13:33:59] ant-design/ant-design: scanned 250, written 82
+[13:35:20] ant-design/ant-design: scanned 500, written 179
+[13:36:35] ant-design/ant-design: scanned 750, written 255
+[13:37:24] ant-design/ant-design: {'scanned': 906, 'no_ts_files': 435, 'bot_or_ghost_author': 62, 'written': 300, 'merged': 225, 'commit_after_cutoff': 5, 'dependency_package_json': 98, 'rejected': 75, 'body_edited_after_cutoff': 2, 'diff_too_large_for_api': 2, 'dependency_title': 2} | total rows 1734
+[13:37:24] tailwindlabs/tailwindcss (97524★): scanning PRs
+[13:38:02] tailwindlabs/tailwindcss: scanned 250, written 0
+[13:38:38] tailwindlabs/tailwindcss: scanned 500, written 0
+[13:38:59] tailwindlabs/tailwindcss: scanned 750, written 0
+[13:39:21] tailwindlabs/tailwindcss: scanned 1000, written 0
+[13:39:45] tailwindlabs/tailwindcss: scanned 1250, written 0
+[13:39:47] tailwindlabs/tailwindcss: {'scanned': 1270, 'no_ts_files': 889, 'bot_or_ghost_author': 380, 'dependency_lockfile': 1} | total rows 1734
+[13:39:47] microsoft/playwright (96018★): scanning PRs
+[13:41:06] microsoft/playwright: scanned 250, written 129
+[13:42:10] microsoft/playwright: scanned 500, written 230
+[13:43:00] microsoft/playwright: {'scanned': 677, 'body_edited_after_cutoff': 1, 'no_ts_files': 333, 'commit_after_cutoff': 11, 'written': 300, 'merged': 265, 'rejected': 35, 'dependency_title': 12, 'dependency_lockfile': 17, 'bot_or_ghost_author': 3} | total rows 2034
+[13:43:00] puppeteer/puppeteer (95579★): scanning PRs
+[13:44:25] puppeteer/puppeteer: scanned 250, written 119
+[13:46:01] puppeteer/puppeteer: scanned 500, written 248
+[13:46:39] puppeteer/puppeteer: {'scanned': 617, 'commit_after_cutoff': 19, 'written': 300, 'merged': 255, 'rejected': 45, 'dependency_package_json': 45, 'no_ts_files': 247, 'dependency_title': 1, 'diff_too_large_for_api': 3, 'bot_or_ghost_author': 1, 'body_edited_after_cutoff': 1} | total rows 2334
+[13:46:39] storybookjs/storybook (91048★): scanning PRs
+[13:47:45] storybookjs/storybook: scanned 250, written 94
+[13:49:02] storybookjs/storybook: scanned 500, written 221
+[13:50:05] storybookjs/storybook: {'scanned': 693, 'no_ts_files': 247, 'dependency_lockfile': 83, 'written': 300, 'merged': 265, 'commit_after_cutoff': 18, 'rejected': 35, 'body_edited_after_cutoff': 5, 'bot_or_ghost_author': 12, 'dependency_package_json': 23, 'dependency_title': 3, 'diff_too_large_for_api': 2} | total rows 2634
+[13:50:05] mermaid-js/mermaid (90213★): scanning PRs
+[13:50:36] mermaid-js/mermaid: scanned 250, written 0
+[13:51:01] mermaid-js/mermaid: scanned 500, written 0
+[13:51:22] mermaid-js/mermaid: {'scanned': 701, 'bot_or_ghost_author': 62, 'no_ts_files': 639} | total rows 2634
+[13:51:22] realworld-apps/realworld (84207★): scanning PRs
+[13:51:41] realworld-apps/realworld: {'scanned': 231, 'no_ts_files': 231} | total rows 2634
+[13:51:41] vitejs/vite (82797★): scanning PRs
+[13:52:58] vitejs/vite: scanned 250, written 135
+[13:54:22] vitejs/vite: scanned 500, written 276
+[13:54:37] vitejs/vite: {'scanned': 547, 'bot_or_ghost_author': 19, 'written': 300, 'merged': 209, 'commit_after_cutoff': 20, 'rejected': 91, 'body_edited_after_cutoff': 3, 'no_ts_files': 162, 'dependency_package_json': 17, 'dependency_title': 3, 'dependency_lockfile': 23} | total rows 2934
+[13:54:37] hoppscotch/hoppscotch (80294★): scanning PRs
+[13:55:03] hoppscotch/hoppscotch: scanned 250, written 3
+[13:55:26] hoppscotch/hoppscotch: scanned 500, written 3
+[13:55:47] hoppscotch/hoppscotch: scanned 750, written 3
+[13:56:09] hoppscotch/hoppscotch: scanned 1000, written 6
+[13:56:20] hoppscotch/hoppscotch: {'scanned': 1113, 'no_ts_files': 659, 'bot_or_ghost_author': 445, 'written': 6, 'merged': 4, 'dependency_lockfile': 3, 'rejected': 2} | total rows 2940
+[13:56:20] coder/code-server (79269★): scanning PRs
+[13:56:52] coder/code-server: scanned 250, written 22
+[13:57:46] coder/code-server: scanned 500, written 80
+[13:58:42] coder/code-server: scanned 750, written 149
+[13:59:09] coder/code-server: {'scanned': 872, 'no_ts_files': 460, 'bot_or_ghost_author': 146, 'commit_after_cutoff': 1, 'dependency_lockfile': 70, 'written': 187, 'merged': 139, 'dependency_title': 3, 'rejected': 48, 'dependency_package_json': 4, 'diff_too_large_for_api': 1} | total rows 3127
+[13:59:09] grafana/grafana (76722★): scanning PRs
+[14:00:19] grafana/grafana: scanned 250, written 98
+[14:01:36] grafana/grafana: scanned 500, written 204
+[14:02:46] grafana/grafana: {'scanned': 726, 'written': 300, 'merged': 274, 'no_ts_files': 382, 'bot_or_ghost_author': 3, 'commit_after_cutoff': 29, 'rejected': 26, 'dependency_lockfile': 10, 'body_edited_after_cutoff': 2} | total rows 3427
+[14:02:46] nestjs/nest (76647★): scanning PRs
+[14:03:18] nestjs/nest: scanned 250, written 14
+[14:03:54] nestjs/nest: scanned 500, written 31
+[14:04:33] nestjs/nest: scanned 750, written 53
+[14:05:14] nestjs/nest: scanned 1000, written 75
+[14:06:05] nestjs/nest: scanned 1250, written 122
+[14:06:48] nestjs/nest: scanned 1500, written 152
+[14:07:33] nestjs/nest: scanned 1750, written 184
+[14:08:15] nestjs/nest: scanned 2000, written 219
+[14:09:00] nestjs/nest: scanned 2250, written 263
+[14:09:42] nestjs/nest: scanned 2500, written 296
+[14:09:49] nestjs/nest: {'scanned': 2522, 'bot_or_ghost_author': 2126, 'no_ts_files': 44, 'dependency_lockfile': 41, 'written': 300, 'rejected': 90, 'merged': 209, 'commit_after_cutoff': 2, 'pending': 1, 'diff_too_large_for_api': 1, 'dependency_package_json': 6, 'diff_over_max_bytes': 1, 'body_edited_after_cutoff': 1} | total rows 3727
+[14:09:49] Eugeny/tabby (74455★): scanning PRs
+[14:10:08] Eugeny/tabby: scanned 250, written 1
+[14:10:28] Eugeny/tabby: scanned 500, written 6
+[14:10:49] Eugeny/tabby: scanned 750, written 12
+[14:11:09] Eugeny/tabby: scanned 1000, written 17
+[14:11:31] Eugeny/tabby: scanned 1250, written 27
+[14:11:50] Eugeny/tabby: scanned 1500, written 32
+[14:12:12] Eugeny/tabby: scanned 1750, written 42
+[14:12:30] Eugeny/tabby: {'scanned': 1877, 'bot_or_ghost_author': 1768, 'written': 63, 'merged': 57, 'no_ts_files': 38, 'rejected': 6, 'dependency_lockfile': 7, 'dependency_package_json': 1} | total rows 3790
+[14:12:30] strapi/strapi (73133★): scanning PRs
+[14:12:57] strapi/strapi: scanned 250, written 1
+[14:13:20] strapi/strapi: scanned 500, written 2
+[14:13:43] strapi/strapi: scanned 750, written 2
+[14:14:06] strapi/strapi: scanned 1000, written 2
+[14:14:28] strapi/strapi: scanned 1250, written 2
+[14:14:54] strapi/strapi: scanned 1500, written 2
+[14:15:18] strapi/strapi: scanned 1750, written 2
+[14:15:43] strapi/strapi: scanned 2000, written 2
+[14:16:07] strapi/strapi: scanned 2250, written 2
+[14:16:30] strapi/strapi: scanned 2500, written 2
+[14:16:53] strapi/strapi: scanned 2750, written 2
+[14:17:19] strapi/strapi: scanned 3000, written 2
+[14:17:24] strapi/strapi: {'scanned': 3000, 'no_ts_files': 2552, 'commit_after_cutoff': 1, 'bot_or_ghost_author': 440, 'written': 2, 'merged': 1, 'rejected': 1, 'dependency_lockfile': 4, 'dependency_package_json': 1, 'hit_scan_limit': 1} | total rows 3792
+[14:17:24] apache/echarts (67308★): scanning PRs
+[14:19:11] apache/echarts: scanned 250, written 170
+[14:20:18] apache/echarts: scanned 500, written 254
+[14:20:43] apache/echarts: scanned 750, written 254
+[14:21:09] apache/echarts: scanned 1000, written 254
+[14:21:22] apache/echarts: {'scanned': 1114, 'written': 254, 'merged': 217, 'rejected': 33, 'body_edited_after_cutoff': 3, 'dependency_lockfile': 26, 'commit_after_cutoff': 12, 'pending': 4, 'diff_over_max_bytes': 4, 'no_ts_files': 799, 'dependency_package_json': 8, 'diff_too_large_for_api': 3, 'bot_or_ghost_author': 5} | total rows 4046
+[14:21:22] facebook/docusaurus (66236★): scanning PRs
+[14:22:23] facebook/docusaurus: scanned 250, written 83
+[14:23:14] facebook/docusaurus: scanned 500, written 146
+[14:24:07] facebook/docusaurus: scanned 750, written 220
+[14:25:04] facebook/docusaurus: {'scanned': 958, 'bot_or_ghost_author': 16, 'written': 300, 'merged': 276, 'no_ts_files': 560, 'commit_after_cutoff': 11, 'dependency_lockfile': 43, 'body_edited_after_cutoff': 1, 'dependency_package_json': 24, 'rejected': 24, 'dependency_title': 3} | total rows 4346
+[14:25:04] nocodb/nocodb (64946★): scanning PRs
+[14:25:12] nocodb/nocodb: {'scanned': 82, 'no_ts_files': 58, 'bot_or_ghost_author': 22, 'written': 2, 'merged': 1, 'rejected': 1} | total rows 4348
+[14:25:12] socketio/socket.io (63205★): scanning PRs
+[14:25:41] socketio/socket.io: scanned 250, written 16
+[14:26:04] socketio/socket.io: scanned 500, written 16
+[14:26:25] socketio/socket.io: scanned 750, written 16
+[14:26:27] socketio/socket.io: {'scanned': 770, 'no_ts_files': 751, 'written': 16, 'rejected': 12, 'merged': 4, 'dependency_lockfile': 2, 'bot_or_ghost_author': 1} | total rows 4364
+[14:26:27] withastro/astro (62494★): scanning PRs
+[14:27:26] withastro/astro: scanned 250, written 81
+[14:27:59] withastro/astro: {'scanned': 392, 'commit_after_cutoff': 1, 'no_ts_files': 133, 'dependency_package_json': 12, 'bot_or_ghost_author': 35, 'dependency_lockfile': 81, 'written': 129, 'rejected': 13, 'merged': 116, 'dependency_title': 1} | total rows 4493
+[14:27:59] reduxjs/redux (61486★): scanning PRs
+[14:28:34] reduxjs/redux: scanned 250, written 27
+[14:29:24] reduxjs/redux: scanned 500, written 94
+[14:29:52] reduxjs/redux: scanned 750, written 101
+[14:30:25] reduxjs/redux: scanned 1000, written 119
+[14:30:52] reduxjs/redux: scanned 1250, written 129
+[14:31:19] reduxjs/redux: scanned 1500, written 138
+[14:31:40] reduxjs/redux: scanned 1750, written 138
+[14:32:02] reduxjs/redux: scanned 2000, written 138
+[14:32:15] reduxjs/redux: {'scanned': 2148, 'bot_or_ghost_author': 29, 'no_ts_files': 1941, 'dependency_lockfile': 31, 'written': 138, 'merged': 86, 'rejected': 52, 'commit_after_cutoff': 2, 'dependency_package_json': 7} | total rows 4631
+[14:32:15] marktext/marktext (61336★): scanning PRs
+[14:32:36] marktext/marktext: scanned 250, written 0
+[14:32:57] marktext/marktext: scanned 500, written 0
+[14:33:17] marktext/marktext: scanned 750, written 0
+[14:33:28] marktext/marktext: {'scanned': 871, 'no_ts_files': 870, 'bot_or_ghost_author': 1} | total rows 4631
+[14:33:28] nuxt/nuxt (60847★): scanning PRs
+[14:33:57] nuxt/nuxt: scanned 250, written 19
+[14:34:25] nuxt/nuxt: scanned 500, written 35
+[14:34:49] nuxt/nuxt: scanned 750, written 43
+[14:35:10] nuxt/nuxt: scanned 1000, written 43
+[14:35:36] nuxt/nuxt: scanned 1250, written 54
+[14:36:02] nuxt/nuxt: scanned 1500, written 63
+[14:36:28] nuxt/nuxt: scanned 1750, written 73
+[14:36:52] nuxt/nuxt: scanned 2000, written 77
+[14:37:14] nuxt/nuxt: scanned 2250, written 78
+[14:37:36] nuxt/nuxt: scanned 2500, written 78
+[14:37:57] nuxt/nuxt: scanned 2750, written 79
+[14:38:02] nuxt/nuxt: {'scanned': 2808, 'no_ts_files': 1755, 'bot_or_ghost_author': 928, 'written': 79, 'merged': 69, 'dependency_lockfile': 29, 'rejected': 10, 'body_edited_after_cutoff': 1, 'dependency_package_json': 12, 'dependency_title': 1, 'diff_too_large_for_api': 3} | total rows 4710
+[14:38:02] remotion-dev/remotion (59024★): scanning PRs
+[14:39:25] remotion-dev/remotion: scanned 250, written 138
+[14:39:26] remotion-dev/remotion: {'scanned': 258, 'written': 138, 'merged': 133, 'dependency_lockfile': 43, 'no_ts_files': 66, 'dependency_package_json': 4, 'commit_after_cutoff': 3, 'rejected': 5, 'bot_or_ghost_author': 4} | total rows 4848
+[14:39:26] pmndrs/zustand (58673★): scanning PRs
+[14:40:24] pmndrs/zustand: {'scanned': 189, 'commit_after_cutoff': 2, 'written': 102, 'merged': 81, 'rejected': 21, 'no_ts_files': 54, 'dependency_lockfile': 15, 'bot_or_ghost_author': 14, 'dependency_title': 2} | total rows 4950
+[14:40:24] appwrite/appwrite (57350★): scanning PRs
+[14:40:48] appwrite/appwrite: scanned 250, written 1
+[14:41:12] appwrite/appwrite: scanned 500, written 2
+[14:41:38] appwrite/appwrite: scanned 750, written 7
+[14:41:44] appwrite/appwrite: {'scanned': 818, 'no_ts_files': 796, 'bot_or_ghost_author': 11, 'dependency_lockfile': 3, 'written': 7, 'merged': 4, 'diff_over_max_bytes': 1, 'rejected': 3} | total rows 4957
+[14:41:44] remix-run/react-router (56572★): scanning PRs
+[14:42:24] remix-run/react-router: scanned 250, written 36
+[14:42:49] remix-run/react-router: scanned 500, written 36
+[14:43:16] remix-run/react-router: scanned 750, written 36
+[14:43:38] remix-run/react-router: scanned 1000, written 36
+[14:44:00] remix-run/react-router: scanned 1250, written 36
+[14:44:20] remix-run/react-router: scanned 1500, written 36
+[14:44:46] remix-run/react-router: scanned 1750, written 36
+[14:45:07] remix-run/react-router: {'scanned': 1987, 'written': 36, 'merged': 11, 'dependency_lockfile': 5, 'no_ts_files': 1932, 'rejected': 25, 'commit_after_cutoff': 3, 'dependency_package_json': 1, 'bot_or_ghost_author': 10} | total rows 4993
+[14:45:07] laurent22/joplin (56342★): scanning PRs
+[14:46:11] laurent22/joplin: scanned 250, written 99
+[14:47:04] laurent22/joplin: scanned 500, written 179
+[14:47:41] laurent22/joplin: scanned 750, written 212
+[14:48:05] laurent22/joplin: scanned 1000, written 220
+[14:48:27] laurent22/joplin: scanned 1250, written 220
+[14:48:45] laurent22/joplin: {'scanned': 1472, 'no_ts_files': 1204, 'commit_after_cutoff': 1, 'written': 220, 'rejected': 67, 'merged': 153, 'dependency_lockfile': 31, 'dependency_package_json': 10, 'bot_or_ghost_author': 6} | total rows 5213
+[14:48:45] agalwood/Motrix (55473★): scanning PRs
+[14:49:00] agalwood/Motrix: {'scanned': 157, 'no_ts_files': 152, 'bot_or_ghost_author': 5} | total rows 5213
+[14:49:00] TryGhost/Ghost (55290★): scanning PRs
+[14:49:22] TryGhost/Ghost: scanned 250, written 0
+[14:49:43] TryGhost/Ghost: scanned 500, written 0
+[14:50:05] TryGhost/Ghost: scanned 750, written 0
+[14:50:27] TryGhost/Ghost: scanned 1000, written 0
+[14:50:49] TryGhost/Ghost: scanned 1250, written 0
+[14:51:13] TryGhost/Ghost: scanned 1500, written 0
+[14:51:35] TryGhost/Ghost: scanned 1750, written 0
+[14:51:56] TryGhost/Ghost: scanned 2000, written 0
+[14:52:21] TryGhost/Ghost: scanned 2250, written 0
+[14:52:42] TryGhost/Ghost: scanned 2500, written 0
+[14:53:04] TryGhost/Ghost: scanned 2750, written 0
+[14:53:24] TryGhost/Ghost: scanned 3000, written 0
+[14:53:28] TryGhost/Ghost: {'scanned': 3000, 'bot_or_ghost_author': 892, 'no_ts_files': 2108, 'hit_scan_limit': 1} | total rows 5213
+[14:53:28] vuejs/core (54369★): scanning PRs
+[14:54:52] vuejs/core: scanned 250, written 156
+[14:56:09] vuejs/core: scanned 500, written 294
+[14:56:16] vuejs/core: {'scanned': 505, 'written': 300, 'merged': 129, 'rejected': 167, 'commit_after_cutoff': 25, 'pending': 4, 'no_ts_files': 28, 'bot_or_ghost_author': 148, 'body_edited_after_cutoff': 1, 'dependency_lockfile': 3} | total rows 5513
+[14:56:16] lyswhut/lx-music-desktop (53536★): scanning PRs
+[14:56:19] lyswhut/lx-music-desktop: {'scanned': 27, 'bot_or_ghost_author': 17, 'no_ts_files': 10} | total rows 5513
+[14:56:19] ionic-team/ionic-framework (52658★): scanning PRs
+[14:57:30] ionic-team/ionic-framework: scanned 250, written 123
+[14:58:35] ionic-team/ionic-framework: scanned 500, written 223
+[14:59:23] ionic-team/ionic-framework: {'scanned': 634, 'commit_after_cutoff': 8, 'written': 300, 'merged': 250, 'no_ts_files': 208, 'dependency_package_json': 16, 'dependency_lockfile': 99, 'dependency_title': 3, 'rejected': 50} | total rows 5813
+[14:59:23] expo/expo (52188★): scanning PRs
+[15:00:14] expo/expo: scanned 250, written 63
+[15:01:06] expo/expo: scanned 500, written 113
+[15:02:38] expo/expo: scanned 750, written 195
+[15:04:17] expo/expo: scanned 1000, written 251
+[15:05:48] expo/expo: scanned 1250, written 298
+[15:05:58] expo/expo: {'scanned': 1252, 'no_ts_files': 802, 'written': 300, 'merged': 269, 'commit_after_cutoff': 8, 'dependency_lockfile': 69, 'dependency_title': 7, 'body_edited_after_cutoff': 1, 'bot_or_ghost_author': 33, 'rejected': 31, 'dependency_package_json': 28, 'diff_over_max_bytes': 2, 'diff_too_large_for_api': 2} | total rows 6113
+[15:05:58] DefinitelyTyped/DefinitelyTyped (51434★): scanning PRs
+[15:08:11] DefinitelyTyped/DefinitelyTyped: scanned 250, written 206
+[15:09:13] DefinitelyTyped/DefinitelyTyped: {'scanned': 352, 'commit_after_cutoff': 30, 'written': 300, 'rejected': 60, 'merged': 238, 'no_ts_files': 7, 'dependency_package_json': 8, 'dependency_title': 3, 'bot_or_ghost_author': 3, 'pending': 2, 'diff_too_large_for_api': 1} | total rows 6413
+[15:09:13] justjavac/wechat-miniapp-radar (51184★): scanning PRs
+[15:09:33] justjavac/wechat-miniapp-radar: scanned 250, written 0
+[15:09:35] justjavac/wechat-miniapp-radar: {'scanned': 272, 'no_ts_files': 271, 'bot_or_ghost_author': 1} | total rows 6413
+[15:09:35] cypress-io/cypress (51008★): scanning PRs
+[15:10:42] cypress-io/cypress: scanned 250, written 73
+[15:11:50] cypress-io/cypress: scanned 500, written 153
+[15:12:57] cypress-io/cypress: scanned 750, written 233
+[15:13:53] cypress-io/cypress: {'scanned': 905, 'commit_after_cutoff': 11, 'no_ts_files': 326, 'dependency_lockfile': 154, 'dependency_package_json': 32, 'written': 300, 'merged': 260, 'bot_or_ghost_author': 76, 'diff_too_large_for_api': 5, 'rejected': 40, 'dependency_title': 1} | total rows 6713
+[15:13:53] tldraw/tldraw (50320★): scanning PRs
+[15:13:54] tldraw/tldraw: {'scanned': 1, 'dependency_lockfile': 1} | total rows 6713
+[15:13:54] TanStack/query (50283★): scanning PRs
+[15:15:11] TanStack/query: scanned 250, written 108
+[15:16:34] TanStack/query: scanned 500, written 222
+[15:17:03] TanStack/query: {'scanned': 713, 'no_ts_files': 419, 'written': 240, 'merged': 198, 'commit_after_cutoff': 2, 'rejected': 42, 'dependency_lockfile': 12, 'dependency_package_json': 6, 'bot_or_ghost_author': 34} | total rows 6953
+[15:17:03] slidevjs/slidev (48634★): scanning PRs
+[15:17:25] slidevjs/slidev: {'scanned': 83, 'written': 35, 'merged': 29, 'commit_after_cutoff': 1, 'rejected': 6, 'dependency_lockfile': 6, 'no_ts_files': 41} | total rows 6988
+[15:17:25] type-challenges/type-challenges (48501★): scanning PRs
+[15:17:58] type-challenges/type-challenges: {'scanned': 161, 'bot_or_ghost_author': 70, 'written': 40, 'merged': 37, 'no_ts_files': 48, 'rejected': 3, 'dependency_lockfile': 3} | total rows 7028
+[15:17:58] calcom/cal.diy (48403★): scanning PRs
+[15:18:49] calcom/cal.diy: {'scanned': 146, 'no_ts_files': 34, 'written': 87, 'merged': 79, 'dependency_lockfile': 18, 'rejected': 8, 'dependency_package_json': 2, 'body_edited_after_cutoff': 4, 'bot_or_ghost_author': 1} | total rows 7115
+[15:18:49] pixijs/pixijs (48146★): scanning PRs
+[15:20:37] pixijs/pixijs: scanned 250, written 183
+[15:21:46] pixijs/pixijs: {'scanned': 399, 'dependency_lockfile': 21, 'written': 300, 'merged': 276, 'no_ts_files': 57, 'dependency_package_json': 18, 'rejected': 24, 'commit_after_cutoff': 3} | total rows 7415
+[15:21:46] prisma/orm (47602★): scanning PRs
+[15:22:44] prisma/orm: scanned 250, written 81
+[15:23:33] prisma/orm: scanned 500, written 137
+[15:24:22] prisma/orm: scanned 750, written 197
+[15:25:31] prisma/orm: scanned 1000, written 297
+[15:25:36] prisma/orm: {'scanned': 1006, 'bot_or_ghost_author': 530, 'written': 300, 'merged': 260, 'commit_after_cutoff': 6, 'dependency_lockfile': 63, 'rejected': 40, 'no_ts_files': 83, 'dependency_package_json': 16, 'dependency_title': 8} | total rows 7715
+[15:25:36] slab/quill (47337★): scanning PRs
+[15:25:57] slab/quill: scanned 250, written 0
+[15:26:14] slab/quill: {'scanned': 493, 'no_ts_files': 478, 'commit_after_cutoff': 5, 'bot_or_ghost_author': 10} | total rows 7715
+[15:26:14] typescript-cheatsheets/react (47100★): scanning PRs
+[15:26:35] typescript-cheatsheets/react: scanned 250, written 1
+[15:26:36] typescript-cheatsheets/react: {'scanned': 257, 'no_ts_files': 227, 'bot_or_ghost_author': 29, 'written': 1, 'rejected': 1} | total rows 7716
+[15:26:36] siyuan-note/siyuan (46316★): scanning PRs
+[15:26:37] siyuan-note/siyuan: {} | total rows 7716
+[15:26:37] DIYgod/RSSHub (46163★): scanning PRs
+[15:26:59] DIYgod/RSSHub: scanned 250, written 0
+[15:27:20] DIYgod/RSSHub: scanned 500, written 0
+[15:27:42] DIYgod/RSSHub: scanned 750, written 0
+[15:28:04] DIYgod/RSSHub: scanned 1000, written 0
+[15:28:27] DIYgod/RSSHub: scanned 1250, written 0
+[15:28:50] DIYgod/RSSHub: scanned 1500, written 0
+[15:29:12] DIYgod/RSSHub: scanned 1750, written 0
+[15:29:35] DIYgod/RSSHub: scanned 2000, written 0
+[15:29:57] DIYgod/RSSHub: scanned 2250, written 0
+[15:30:21] DIYgod/RSSHub: scanned 2500, written 0
+[15:30:44] DIYgod/RSSHub: scanned 2750, written 0
+[15:31:06] DIYgod/RSSHub: scanned 3000, written 0
+[15:31:10] DIYgod/RSSHub: {'scanned': 3000, 'bot_or_ghost_author': 772, 'no_ts_files': 2228, 'hit_scan_limit': 1} | total rows 7716
+[15:31:10] RocketChat/Rocket.Chat (46109★): scanning PRs
+[15:32:11] RocketChat/Rocket.Chat: scanned 250, written 58
+[15:32:57] RocketChat/Rocket.Chat: scanned 500, written 100
+[15:33:52] RocketChat/Rocket.Chat: scanned 750, written 168
+[15:34:53] RocketChat/Rocket.Chat: scanned 1000, written 247
+[15:35:36] RocketChat/Rocket.Chat: scanned 1250, written 292
+[15:35:44] RocketChat/Rocket.Chat: {'scanned': 1299, 'commit_after_cutoff': 42, 'no_ts_files': 724, 'bot_or_ghost_author': 147, 'diff_too_large_for_api': 18, 'dependency_lockfile': 63, 'written': 300, 'merged': 238, 'rejected': 55, 'dependency_title': 2, 'body_edited_after_cutoff': 3, 'pending': 7} | total rows 8016
+[15:35:44] fastapi/full-stack-fastapi-template (45525★): scanning PRs
+[15:35:56] fastapi/full-stack-fastapi-template: {'scanned': 115, 'no_ts_files': 111, 'dependency_package_json': 1, 'bot_or_ghost_author': 2, 'dependency_lockfile': 1} | total rows 8016
+[15:35:56] jestjs/jest (45458★): scanning PRs
+[15:37:09] jestjs/jest: scanned 250, written 96
+[15:38:30] jestjs/jest: scanned 500, written 219
+[15:39:28] jestjs/jest: {'scanned': 674, 'no_ts_files': 247, 'written': 300, 'rejected': 68, 'merged': 232, 'commit_after_cutoff': 23, 'dependency_title': 14, 'dependency_lockfile': 71, 'bot_or_ghost_author': 15, 'dependency_package_json': 3, 'diff_too_large_for_api': 1} | total rows 8316
+[15:39:28] react-hook-form/react-hook-form (44852★): scanning PRs
+[15:41:20] react-hook-form/react-hook-form: scanned 250, written 213
+[15:42:06] react-hook-form/react-hook-form: {'scanned': 345, 'no_ts_files': 19, 'written': 300, 'merged': 266, 'rejected': 34, 'commit_after_cutoff': 2, 'bot_or_ghost_author': 13, 'dependency_lockfile': 10, 'dependency_title': 1} | total rows 8616
+[15:42:06] vercel/hyper (44728★): scanning PRs
+[15:42:31] vercel/hyper: scanned 250, written 9
+[15:42:55] vercel/hyper: scanned 500, written 21
+[15:43:16] vercel/hyper: scanned 750, written 26
+[15:43:44] vercel/hyper: scanned 1000, written 44
+[15:44:09] vercel/hyper: scanned 1250, written 57
+[15:44:34] vercel/hyper: scanned 1500, written 60
+[15:44:56] vercel/hyper: scanned 1750, written 61
+[15:45:16] vercel/hyper: scanned 2000, written 61
+[15:45:37] vercel/hyper: scanned 2250, written 61
+[15:45:48] vercel/hyper: {'scanned': 2363, 'bot_or_ghost_author': 1264, 'written': 61, 'merged': 58, 'dependency_lockfile': 37, 'no_ts_files': 993, 'pending': 1, 'rejected': 2, 'dependency_title': 8} | total rows 8677
+[15:45:48] payloadcms/payload (44710★): scanning PRs
+[15:46:22] payloadcms/payload: {'scanned': 100, 'written': 60, 'merged': 57, 'dependency_lockfile': 14, 'no_ts_files': 26, 'rejected': 3} | total rows 8737
+[15:46:22] streamich/react-use (44011★): scanning PRs
+[15:47:03] streamich/react-use: scanned 250, written 47
+[15:47:38] streamich/react-use: scanned 500, written 84
+[15:48:21] streamich/react-use: scanned 750, written 140
+[15:49:07] streamich/react-use: scanned 1000, written 200
+[15:50:11] streamich/react-use: {'scanned': 1224, 'written': 300, 'pending': 76, 'no_ts_files': 66, 'rejected': 81, 'bot_or_ghost_author': 821, 'dependency_lockfile': 31, 'merged': 143, 'dependency_package_json': 2, 'commit_after_cutoff': 1, 'diff_too_large_for_api': 1, 'dependency_title': 2} | total rows 9037
+[15:50:11] babel/babel (43990★): scanning PRs
+[15:51:06] babel/babel: scanned 250, written 56
+[15:51:50] babel/babel: scanned 500, written 97
+[15:52:35] babel/babel: scanned 750, written 137
+[15:53:10] babel/babel: scanned 1000, written 153
+[15:53:46] babel/babel: scanned 1250, written 170
+[15:54:17] babel/babel: scanned 1500, written 180
+[15:54:48] babel/babel: scanned 1750, written 197
+[15:55:15] babel/babel: scanned 2000, written 202
+[15:55:40] babel/babel: scanned 2250, written 203
+[15:56:07] babel/babel: scanned 2500, written 205
+[15:56:34] babel/babel: scanned 2750, written 206
+[15:57:01] babel/babel: scanned 3000, written 206
+[15:57:06] babel/babel: {'scanned': 3000, 'commit_after_cutoff': 25, 'no_ts_files': 2663, 'written': 206, 'merged': 190, 'bot_or_ghost_author': 34, 'diff_too_large_for_api': 5, 'dependency_lockfile': 44, 'rejected': 14, 'body_edited_after_cutoff': 6, 'dependency_package_json': 17, 'pending': 2, 'hit_scan_limit': 1} | total rows 9243
+[15:57:06] colinhacks/zod (43929★): scanning PRs
+[15:57:41] colinhacks/zod: {'scanned': 121, 'written': 48, 'merged': 29, 'no_ts_files': 42, 'body_edited_after_cutoff': 1, 'dependency_lockfile': 14, 'bot_or_ghost_author': 12, 'rejected': 19, 'diff_too_large_for_api': 1, 'dependency_package_json': 3} | total rows 9291
+[15:57:41] mifi/lossless-cut (43678★): scanning PRs
+[15:57:50] mifi/lossless-cut: {'scanned': 96, 'bot_or_ghost_author': 45, 'no_ts_files': 51} | total rows 9291
+[15:57:50] reactive-resume/reactive-resume (42531★): scanning PRs
+[15:58:13] reactive-resume/reactive-resume: {'scanned': 216, 'no_ts_files': 198, 'bot_or_ghost_author': 18} | total rows 9291
+[15:58:13] nolimits4web/swiper (41903★): scanning PRs
+[15:58:56] nolimits4web/swiper: scanned 250, written 56
+[15:59:18] nolimits4web/swiper: scanned 500, written 56
+[15:59:27] nolimits4web/swiper: {'scanned': 603, 'no_ts_files': 508, 'written': 56, 'merged': 54, 'dependency_title': 1, 'commit_after_cutoff': 1, 'bot_or_ghost_author': 35, 'rejected': 2, 'dependency_lockfile': 2} | total rows 9347
+[15:59:27] hexojs/hexo (41759★): scanning PRs
+[15:59:46] hexojs/hexo: scanned 250, written 0
+[16:00:05] hexojs/hexo: scanned 500, written 0
+[16:00:27] hexojs/hexo: scanned 750, written 0
+[16:00:45] hexojs/hexo: {'scanned': 973, 'no_ts_files': 873, 'bot_or_ghost_author': 100} | total rows 9347
+[16:00:45] styled-components/styled-components (41102★): scanning PRs
+[16:01:14] styled-components/styled-components: scanned 250, written 4
+[16:01:49] styled-components/styled-components: scanned 500, written 24
+[16:02:19] styled-components/styled-components: scanned 750, written 41
+[16:02:45] styled-components/styled-components: scanned 1000, written 49
+[16:02:56] styled-components/styled-components: {'scanned': 1112, 'bot_or_ghost_author': 29, 'written': 49, 'rejected': 19, 'no_ts_files': 1015, 'commit_after_cutoff': 1, 'dependency_lockfile': 17, 'merged': 30, 'dependency_package_json': 1} | total rows 9396
+[16:02:56] vuetifyjs/vuetify (41038★): scanning PRs
+[16:04:15] vuetifyjs/vuetify: scanned 250, written 126
+[16:05:32] vuetifyjs/vuetify: scanned 500, written 242
+[16:06:10] vuetifyjs/vuetify: {'scanned': 600, 'commit_after_cutoff': 11, 'body_edited_after_cutoff': 1, 'no_ts_files': 242, 'dependency_lockfile': 21, 'written': 300, 'merged': 230, 'rejected': 70, 'bot_or_ghost_author': 19, 'dependency_package_json': 4, 'diff_too_large_for_api': 2} | total rows 9696
+[16:06:10] appsmithorg/appsmith (40862★): scanning PRs
+[16:07:30] appsmithorg/appsmith: scanned 250, written 105
+[16:08:58] appsmithorg/appsmith: scanned 500, written 231
+[16:09:53] appsmithorg/appsmith: {'scanned': 674, 'bot_or_ghost_author': 50, 'commit_after_cutoff': 38, 'no_ts_files': 250, 'written': 300, 'rejected': 43, 'merged': 257, 'dependency_lockfile': 21, 'dependency_package_json': 13, 'diff_too_large_for_api': 1, 'dependency_title': 1} | total rows 9996
+[16:09:53] chakra-ui/chakra-ui (40642★): scanning PRs
+[16:11:06] chakra-ui/chakra-ui: scanned 250, written 114
+[16:12:14] chakra-ui/chakra-ui: scanned 500, written 228
+[16:13:00] chakra-ui/chakra-ui: {'scanned': 687, 'no_ts_files': 248, 'written': 300, 'rejected': 54, 'dependency_lockfile': 29, 'merged': 246, 'bot_or_ghost_author': 89, 'commit_after_cutoff': 3, 'dependency_package_json': 18} | total rows 10296
+[16:13:00] trpc/trpc (40601★): scanning PRs
+[16:13:43] trpc/trpc: scanned 250, written 38
+[16:14:22] trpc/trpc: scanned 500, written 74
+[16:14:29] trpc/trpc: {'scanned': 527, 'bot_or_ghost_author': 284, 'dependency_lockfile': 33, 'written': 82, 'rejected': 13, 'dependency_package_json': 28, 'no_ts_files': 99, 'merged': 69, 'body_edited_after_cutoff': 1} | total rows 10378
+[16:14:29] outline/outline (40524★): scanning PRs
+[16:14:54] outline/outline: scanned 250, written 0
+[16:15:19] outline/outline: scanned 500, written 0
+[16:15:41] outline/outline: scanned 750, written 0
+[16:15:54] outline/outline: {'scanned': 891, 'no_ts_files': 873, 'bot_or_ghost_author': 18} | total rows 10378
+[16:15:54] Kong/insomnia (40005★): scanning PRs
+[16:16:44] Kong/insomnia: scanned 250, written 55
+[16:17:07] Kong/insomnia: scanned 500, written 57
+[16:17:33] Kong/insomnia: scanned 750, written 57
+[16:17:56] Kong/insomnia: scanned 1000, written 57
+[16:18:08] Kong/insomnia: {'scanned': 1112, 'commit_after_cutoff': 22, 'written': 57, 'merged': 54, 'dependency_lockfile': 13, 'no_ts_files': 1000, 'rejected': 3, 'bot_or_ghost_author': 20} | total rows 10435
+[16:18:08] vadimdemedes/ink (39863★): scanning PRs
+[16:19:35] vadimdemedes/ink: {'scanned': 209, 'written': 62, 'merged': 47, 'no_ts_files': 134, 'rejected': 15, 'dependency_package_json': 12, 'commit_after_cutoff': 1} | total rows 10497
+[16:19:35] mattermost/mattermost (39042★): scanning PRs
+[16:20:00] mattermost/mattermost: scanned 250, written 0
+[16:20:25] mattermost/mattermost: scanned 500, written 0
+[16:20:50] mattermost/mattermost: scanned 750, written 0
+[16:21:17] mattermost/mattermost: scanned 1000, written 0
+[16:21:41] mattermost/mattermost: scanned 1250, written 0
+[16:22:03] mattermost/mattermost: scanned 1500, written 0
+[16:22:26] mattermost/mattermost: scanned 1750, written 0
+[16:22:51] mattermost/mattermost: scanned 2000, written 0
+[16:23:15] mattermost/mattermost: scanned 2250, written 0
+[16:23:40] mattermost/mattermost: scanned 2500, written 0
+[16:24:05] mattermost/mattermost: scanned 2750, written 0
+[16:24:29] mattermost/mattermost: scanned 3000, written 0
+[16:24:34] mattermost/mattermost: {'scanned': 3000, 'no_ts_files': 2915, 'bot_or_ghost_author': 85, 'hit_scan_limit': 1} | total rows 10497
+[16:24:34] ant-design/ant-design-pro (38762★): scanning PRs
+[16:25:42] ant-design/ant-design-pro: scanned 250, written 93
+[16:26:39] ant-design/ant-design-pro: scanned 500, written 151
+[16:27:27] ant-design/ant-design-pro: scanned 750, written 187
+[16:28:05] ant-design/ant-design-pro: scanned 1000, written 211
+[16:28:41] ant-design/ant-design-pro: scanned 1250, written 232
+[16:28:44] ant-design/ant-design-pro: {'scanned': 1277, 'written': 232, 'merged': 160, 'commit_after_cutoff': 1, 'no_ts_files': 784, 'rejected': 72, 'bot_or_ghost_author': 181, 'dependency_package_json': 70, 'diff_too_large_for_api': 9} | total rows 10729
+[16:28:44] umami-software/umami (38755★): scanning PRs
+[16:29:05] umami-software/umami: scanned 250, written 0
+[16:29:07] umami-software/umami: {'scanned': 270, 'no_ts_files': 261, 'bot_or_ghost_author': 9} | total rows 10729
+[16:29:07] portainer/portainer (38485★): scanning PRs
+[16:29:28] portainer/portainer: scanned 250, written 0
+[16:29:49] portainer/portainer: scanned 500, written 0
+[16:30:12] portainer/portainer: scanned 750, written 0
+[16:30:35] portainer/portainer: scanned 1000, written 0
+[16:30:58] portainer/portainer: scanned 1250, written 0
+[16:31:20] portainer/portainer: scanned 1500, written 0
+[16:31:41] portainer/portainer: scanned 1750, written 0
+[16:31:48] portainer/portainer: {'scanned': 1839, 'no_ts_files': 1730, 'bot_or_ghost_author': 109} | total rows 10729
+[16:31:48] ueberdosis/tiptap (38353★): scanning PRs
+[16:32:23] ueberdosis/tiptap: scanned 250, written 32
+[16:32:23] ueberdosis/tiptap: {'scanned': 250, 'no_ts_files': 166, 'bot_or_ghost_author': 47, 'commit_after_cutoff': 1, 'written': 32, 'rejected': 9, 'merged': 23, 'dependency_package_json': 2, 'dependency_lockfile': 2} | total rows 10761
+[16:32:23] xyflow/xyflow (38350★): scanning PRs
+[16:32:56] xyflow/xyflow: scanned 250, written 30
+[16:33:49] xyflow/xyflow: scanned 500, written 99
+[16:34:18] xyflow/xyflow: {'scanned': 663, 'bot_or_ghost_author': 469, 'written': 103, 'rejected': 13, 'merged': 90, 'no_ts_files': 41, 'commit_after_cutoff': 2, 'dependency_lockfile': 36, 'diff_over_max_bytes': 12} | total rows 10864
+[16:34:18] directus/directus (37877★): scanning PRs
+[16:35:09] directus/directus: scanned 250, written 64
+[16:36:03] directus/directus: scanned 500, written 115
+[16:37:17] directus/directus: scanned 750, written 212
+[16:38:18] directus/directus: scanned 1000, written 291
+[16:38:27] directus/directus: {'scanned': 1035, 'written': 300, 'merged': 270, 'no_ts_files': 431, 'dependency_lockfile': 47, 'bot_or_ghost_author': 235, 'commit_after_cutoff': 5, 'dependency_package_json': 10, 'rejected': 30, 'body_edited_after_cutoff': 1, 'diff_too_large_for_api': 3, 'diff_over_max_bytes': 2, 'dependency_title': 1} | total rows 11164
+[16:38:27] TriliumNext/Trilium (37805★): scanning PRs
+[16:38:34] TriliumNext/Trilium: {'scanned': 86, 'no_ts_files': 74, 'bot_or_ghost_author': 12} | total rows 11164
+[16:38:34] NervJS/taro (37674★): scanning PRs
+[16:39:39] NervJS/taro: scanned 250, written 85
+[16:40:47] NervJS/taro: scanned 500, written 179
+[16:42:05] NervJS/taro: {'scanned': 731, 'written': 300, 'rejected': 54, 'commit_after_cutoff': 12, 'merged': 242, 'bot_or_ghost_author': 118, 'dependency_lockfile': 46, 'no_ts_files': 242, 'dependency_package_json': 11, 'diff_too_large_for_api': 1, 'pending': 4, 'diff_over_max_bytes': 1} | total rows 11464
+[16:42:05] ZuodaoTech/everyone-can-use-english (37476★): scanning PRs
+[16:42:09] ZuodaoTech/everyone-can-use-english: {'scanned': 38, 'no_ts_files': 38} | total rows 11464
+[16:42:09] AdguardTeam/AdGuardHome (36851★): scanning PRs
+[16:42:33] AdguardTeam/AdGuardHome: {'scanned': 213, 'bot_or_ghost_author': 41, 'no_ts_files': 172} | total rows 11464
+[16:42:33] typeorm/typeorm (36650★): scanning PRs
+[16:44:05] typeorm/typeorm: scanned 250, written 158
+[16:45:24] typeorm/typeorm: {'scanned': 447, 'no_ts_files': 89, 'commit_after_cutoff': 16, 'written': 300, 'merged': 211, 'body_edited_after_cutoff': 2, 'dependency_lockfile': 28, 'rejected': 89, 'bot_or_ghost_author': 11, 'dependency_title': 1} | total rows 11764
+[16:45:24] date-fns/date-fns (36646★): scanning PRs
+[16:46:56] date-fns/date-fns: scanned 250, written 143
+[16:48:03] date-fns/date-fns: scanned 500, written 223
+[16:48:49] date-fns/date-fns: scanned 750, written 254
+[16:49:40] date-fns/date-fns: scanned 1000, written 294
+[16:50:06] date-fns/date-fns: {'scanned': 1215, 'no_ts_files': 781, 'written': 299, 'pending': 8, 'commit_after_cutoff': 25, 'rejected': 59, 'merged': 232, 'dependency_lockfile': 32, 'diff_too_large_for_api': 9, 'bot_or_ghost_author': 67, 'diff_over_max_bytes': 2} | total rows 12063
+[16:50:06] medusajs/medusa (36269★): scanning PRs
+[16:50:35] medusajs/medusa: {'scanned': 247, 'commit_after_cutoff': 2, 'dependency_lockfile': 19, 'written': 12, 'rejected': 4, 'no_ts_files': 169, 'merged': 8, 'bot_or_ghost_author': 45} | total rows 12075
+[16:50:35] lerna/lerna (36053★): scanning PRs
+[16:51:00] lerna/lerna: scanned 250, written 0
+[16:51:24] lerna/lerna: scanned 500, written 0
+[16:51:46] lerna/lerna: scanned 750, written 0
+[16:51:56] lerna/lerna: {'scanned': 862, 'no_ts_files': 853, 'bot_or_ghost_author': 6, 'dependency_title': 1, 'dependency_lockfile': 1, 'dependency_package_json': 1} | total rows 12075
+[16:51:56] solidjs/solid (36024★): scanning PRs
+[16:52:27] solidjs/solid: {'scanned': 132, 'no_ts_files': 70, 'written': 43, 'merged': 35, 'dependency_lockfile': 12, 'rejected': 8, 'bot_or_ghost_author': 7} | total rows 12118
+[16:52:27] alan2207/bulletproof-react (35823★): scanning PRs
+[16:52:28] alan2207/bulletproof-react: {} | total rows 12118
+[16:52:28] blakeblackshear/frigate (35788★): scanning PRs
+[16:52:53] blakeblackshear/frigate: scanned 250, written 0
+[16:52:53] blakeblackshear/frigate: {'scanned': 256, 'no_ts_files': 250, 'bot_or_ghost_author': 6} | total rows 12118
+[16:52:53] drizzle-team/drizzle-orm (35750★): scanning PRs
+[16:52:54] drizzle-team/drizzle-orm: {} | total rows 12118
+[16:52:54] refinedev/refine (35665★): scanning PRs
+[16:54:20] refinedev/refine: scanned 250, written 136
+[16:55:11] refinedev/refine: {'scanned': 375, 'written': 217, 'merged': 205, 'no_ts_files': 41, 'dependency_lockfile': 115, 'rejected': 12, 'dependency_package_json': 2} | total rows 12335
+[16:55:11] nativefier/nativefier (35271★): scanning PRs
+[16:56:01] nativefier/nativefier: scanned 250, written 55
+[16:56:03] nativefier/nativefier: {'scanned': 263, 'written': 55, 'merged': 50, 'dependency_package_json': 10, 'commit_after_cutoff': 1, 'no_ts_files': 196, 'rejected': 5, 'dependency_title': 1} | total rows 12390
+[16:56:03] backstage/backstage (34399★): scanning PRs
+[16:57:15] backstage/backstage: scanned 250, written 90
+[16:58:29] backstage/backstage: scanned 500, written 186
+[16:59:48] backstage/backstage: scanned 750, written 294
+[16:59:56] backstage/backstage: {'scanned': 766, 'commit_after_cutoff': 15, 'no_ts_files': 205, 'written': 300, 'merged': 270, 'bot_or_ghost_author': 162, 'dependency_package_json': 36, 'diff_too_large_for_api': 5, 'rejected': 30, 'dependency_lockfile': 41, 'dependency_title': 2} | total rows 12690
+[16:59:56] finished: 12690 rows in result/human_ts_prs.csv
+[16:59:56] this run: {'scanned': 84564, 'commit_after_cutoff': 570, 'bot_or_ghost_author': 15598, 'dependency_lockfile': 1932, 'no_ts_files': 52846, 'already_written': 34, 'hit_scan_limit': 6, 'written': 12656, 'pending': 142, 'diff_over_max_bytes': 26, 'rejected': 2594, 'merged': 9920, 'body_edited_after_cutoff': 42, 'diff_too_large_for_api': 87, 'no_commits': 1, 'dependency_title': 92, 'dependency_package_json': 680}

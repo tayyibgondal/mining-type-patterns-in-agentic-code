@@ -1,0 +1,299 @@
+[18:36:02] 2dust/v2rayN (116017★): scanning PRs
+[18:36:39] 2dust/v2rayN: {'scanned': 92, 'written': 72, 'merged': 33, 'rejected': 39, 'no_cs_files': 14, 'dependency_package_reference': 2, 'dependency_nuget_file': 4} | total rows 72
+[18:36:39] shadowsocks/shadowsocks-windows (59563★): scanning PRs
+[18:38:14] shadowsocks/shadowsocks-windows: scanned 250, written 136
+[18:39:38] shadowsocks/shadowsocks-windows: {'scanned': 432, 'written': 278, 'pending': 1, 'bot_or_ghost_author': 68, 'merged': 166, 'no_cs_files': 48, 'dependency_package_reference': 3, 'dependency_nuget_file': 27, 'dependency_title': 3, 'rejected': 111, 'diff_too_large_for_api': 5} | total rows 350
+[18:39:38] jellyfin/jellyfin (57013★): scanning PRs
+[18:55:26] network error (HTTPSConnectionPool(host='api.github.com', port=443): Read timed out. (read timeout=60)); retrying
+[18:56:30] jellyfin/jellyfin: scanned 250, written 144
+[18:58:06] jellyfin/jellyfin: {'scanned': 476, 'bot_or_ghost_author': 78, 'commit_after_cutoff': 26, 'no_cs_files': 49, 'written': 300, 'merged': 254, 'rejected': 46, 'dependency_package_reference': 21, 'dependency_title': 2} | total rows 650
+[18:58:06] PowerShell/PowerShell (55363★): scanning PRs
+[18:59:15] PowerShell/PowerShell: scanned 250, written 79
+[19:01:05] PowerShell/PowerShell: scanned 500, written 258
+[19:01:38] PowerShell/PowerShell: {'scanned': 567, 'no_cs_files': 194, 'body_edited_after_cutoff': 2, 'written': 300, 'merged': 255, 'rejected': 45, 'commit_after_cutoff': 20, 'bot_or_ghost_author': 42, 'dependency_package_reference': 7, 'diff_too_large_for_api': 1, 'dependency_title': 1} | total rows 950
+[19:01:38] files-community/Files (45312★): scanning PRs
+[19:03:11] files-community/Files: scanned 250, written 137
+[19:04:46] files-community/Files: scanned 500, written 269
+[19:05:12] files-community/Files: {'scanned': 557, 'commit_after_cutoff': 3, 'written': 300, 'merged': 259, 'no_cs_files': 179, 'bot_or_ghost_author': 51, 'rejected': 41, 'body_edited_after_cutoff': 13, 'dependency_package_reference': 8, 'dependency_nuget_file': 2, 'diff_too_large_for_api': 1} | total rows 1250
+[19:05:12] ShareX/ShareX (39550★): scanning PRs
+[19:05:12] ShareX/ShareX: {} | total rows 1250
+[19:05:12] huiyadanli/RevokeMsgPatcher (38750★): scanning PRs
+[19:05:13] huiyadanli/RevokeMsgPatcher: {'scanned': 4, 'no_cs_files': 4} | total rows 1250
+[19:05:13] dotnet/aspnetcore (38435★): scanning PRs
+[19:06:29] dotnet/aspnetcore: scanned 250, written 103
+[19:07:42] dotnet/aspnetcore: scanned 500, written 204
+[19:08:50] dotnet/aspnetcore: {'scanned': 720, 'no_cs_files': 167, 'written': 300, 'rejected': 46, 'commit_after_cutoff': 29, 'bot_or_ghost_author': 217, 'merged': 254, 'body_edited_after_cutoff': 2, 'diff_over_max_bytes': 2, 'dependency_title': 3} | total rows 1550
+[19:08:50] AvaloniaUI/Avalonia (31489★): scanning PRs
+[19:10:39] AvaloniaUI/Avalonia: scanned 250, written 190
+[19:11:45] AvaloniaUI/Avalonia: {'scanned': 391, 'written': 300, 'merged': 259, 'rejected': 41, 'commit_after_cutoff': 23, 'no_cs_files': 52, 'dependency_package_reference': 11, 'dependency_title': 3, 'diff_too_large_for_api': 2} | total rows 1850
+[19:11:45] microsoft/calculator (31041★): scanning PRs
+[19:12:18] microsoft/calculator: scanned 250, written 20
+[19:12:51] microsoft/calculator: scanned 500, written 27
+[19:13:21] microsoft/calculator: scanned 750, written 31
+[19:13:25] microsoft/calculator: {'scanned': 791, 'no_cs_files': 747, 'written': 31, 'merged': 28, 'diff_too_large_for_api': 9, 'rejected': 3, 'dependency_project_json': 1, 'bot_or_ghost_author': 1, 'dependency_package_reference': 2} | total rows 1881
+[19:13:25] dnSpy/dnSpy (29688★): scanning PRs
+[19:13:59] dnSpy/dnSpy: {'scanned': 83, 'written': 60, 'rejected': 17, 'no_cs_files': 22, 'merged': 43, 'bot_or_ghost_author': 1} | total rows 1941
+[19:13:59] NickeManarin/ScreenToGif (27626★): scanning PRs
+[19:14:44] NickeManarin/ScreenToGif: {'scanned': 210, 'no_cs_files': 145, 'written': 61, 'rejected': 15, 'merged': 43, 'dependency_nuget_file': 2, 'dependency_package_reference': 1, 'pending': 3, 'bot_or_ghost_author': 1} | total rows 2002
+[19:14:44] BeyondDimension/SteamTools (26811★): scanning PRs
+[19:14:44] BeyondDimension/SteamTools: {} | total rows 2002
+[19:14:44] Devolutions/UniGetUI (26115★): scanning PRs
+[19:14:44] Devolutions/UniGetUI: {} | total rows 2002
+[19:14:44] icsharpcode/ILSpy (26059★): scanning PRs
+[19:16:39] icsharpcode/ILSpy: scanned 250, written 148
+[19:18:18] icsharpcode/ILSpy: {'scanned': 451, 'commit_after_cutoff': 3, 'written': 300, 'merged': 215, 'no_cs_files': 77, 'dependency_package_reference': 45, 'rejected': 85, 'diff_too_large_for_api': 8, 'dependency_title': 2, 'bot_or_ghost_author': 5, 'diff_over_max_bytes': 3, 'dependency_nuget_file': 8} | total rows 2302
+[19:18:18] mxgmn/WaveFunctionCollapse (25321★): scanning PRs
+[19:18:25] mxgmn/WaveFunctionCollapse: {'scanned': 28, 'no_cs_files': 19, 'written': 9, 'rejected': 5, 'merged': 4} | total rows 2311
+[19:18:25] QL-Win/QuickLook (24674★): scanning PRs
+[19:18:44] QL-Win/QuickLook: {'scanned': 83, 'written': 24, 'merged': 18, 'no_cs_files': 53, 'rejected': 6, 'dependency_nuget_file': 6} | total rows 2335
+[19:18:44] dotnet-architecture/eShopOnContainers (24316★): scanning PRs
+[19:20:17] dotnet-architecture/eShopOnContainers: scanned 250, written 78
+[19:22:01] dotnet-architecture/eShopOnContainers: scanned 500, written 165
+[19:22:56] dotnet-architecture/eShopOnContainers: {'scanned': 621, 'no_cs_files': 276, 'bot_or_ghost_author': 25, 'diff_over_max_bytes': 7, 'commit_after_cutoff': 3, 'diff_too_large_for_api': 11, 'dependency_package_reference': 69, 'written': 208, 'merged': 150, 'rejected': 56, 'dependency_nuget_file': 19, 'pending': 2, 'dependency_title': 1, 'dependency_project_json': 2} | total rows 2543
+[19:22:56] dotnet/maui (23320★): scanning PRs
+[19:24:14] dotnet/maui: scanned 250, written 105
+[19:25:52] dotnet/maui: scanned 500, written 232
+[19:26:49] dotnet/maui: {'scanned': 621, 'commit_after_cutoff': 24, 'written': 300, 'merged': 268, 'no_cs_files': 147, 'bot_or_ghost_author': 97, 'dependency_package_reference': 39, 'rejected': 32, 'dependency_title': 3, 'diff_too_large_for_api': 10, 'body_edited_after_cutoff': 1} | total rows 2843
+[19:26:49] CodeHubApp/CodeHub (22569★): scanning PRs
+[19:26:54] CodeHubApp/CodeHub: {'scanned': 20, 'written': 7, 'pending': 1, 'merged': 4, 'no_cs_files': 8, 'dependency_nuget_file': 3, 'rejected': 2, 'bot_or_ghost_author': 2} | total rows 2850
+[19:26:54] QuantConnect/Lean (21602★): scanning PRs
+[19:28:50] QuantConnect/Lean: scanned 250, written 173
+[19:30:13] QuantConnect/Lean: {'scanned': 435, 'commit_after_cutoff': 10, 'written': 300, 'merged': 270, 'no_cs_files': 88, 'dependency_package_reference': 28, 'rejected': 30, 'diff_too_large_for_api': 4, 'diff_over_max_bytes': 3, 'bot_or_ghost_author': 1, 'dependency_nuget_file': 1} | total rows 3150
+[19:30:13] thangchung/awesome-dotnet-core (21376★): scanning PRs
+[19:30:34] thangchung/awesome-dotnet-core: scanned 250, written 0
+[19:30:53] thangchung/awesome-dotnet-core: scanned 500, written 0
+[19:31:07] thangchung/awesome-dotnet-core: {'scanned': 690, 'no_cs_files': 690} | total rows 3150
+[19:31:07] BCUninstaller/Bulk-Crap-Uninstaller (21268★): scanning PRs
+[19:31:13] BCUninstaller/Bulk-Crap-Uninstaller: {'scanned': 30, 'diff_too_large_for_api': 1, 'written': 4, 'merged': 4, 'no_cs_files': 25} | total rows 3154
+[19:31:13] dotnet/roslyn (20658★): scanning PRs
+[19:33:08] dotnet/roslyn: scanned 250, written 107
+[19:34:37] dotnet/roslyn: scanned 500, written 206
+[19:36:05] dotnet/roslyn: {'scanned': 736, 'commit_after_cutoff': 30, 'written': 300, 'merged': 253, 'bot_or_ghost_author': 294, 'rejected': 46, 'no_cs_files': 82, 'diff_too_large_for_api': 15, 'dependency_package_reference': 8, 'dependency_title': 1, 'diff_over_max_bytes': 1, 'body_edited_after_cutoff': 5, 'pending': 1} | total rows 3454
+[19:36:05] jasontaylordev/CleanArchitecture (20546★): scanning PRs
+[19:36:37] jasontaylordev/CleanArchitecture: {'scanned': 93, 'commit_after_cutoff': 1, 'written': 43, 'merged': 29, 'bot_or_ghost_author': 18, 'no_cs_files': 23, 'rejected': 14, 'dependency_package_reference': 8} | total rows 3497
+[19:36:37] peass-ng/PEASS-ng (20512★): scanning PRs
+[19:36:56] peass-ng/PEASS-ng: {'scanned': 81, 'bot_or_ghost_author': 9, 'written': 16, 'merged': 12, 'no_cs_files': 53, 'rejected': 4, 'diff_too_large_for_api': 1, 'diff_over_max_bytes': 2} | total rows 3513
+[19:36:56] bitwarden/server (20126★): scanning PRs
+[19:38:26] bitwarden/server: scanned 250, written 138
+[19:40:00] bitwarden/server: {'scanned': 478, 'no_cs_files': 145, 'commit_after_cutoff': 10, 'written': 300, 'merged': 279, 'bot_or_ghost_author': 7, 'rejected': 21, 'dependency_package_reference': 16} | total rows 3813
+[19:40:00] BluePointLilac/ContextMenuManager (20023★): scanning PRs
+[19:40:01] BluePointLilac/ContextMenuManager: {'scanned': 6, 'no_cs_files': 6} | total rows 3813
+[19:40:01] Unity-Technologies/ml-agents (19671★): scanning PRs
+[19:41:17] Unity-Technologies/ml-agents: scanned 250, written 101
+[19:42:28] Unity-Technologies/ml-agents: scanned 500, written 185
+[19:43:33] Unity-Technologies/ml-agents: scanned 750, written 273
+[19:44:00] Unity-Technologies/ml-agents: {'scanned': 871, 'no_cs_files': 559, 'written': 300, 'rejected': 36, 'merged': 263, 'pending': 1, 'commit_after_cutoff': 1, 'dependency_title': 2, 'diff_too_large_for_api': 7, 'diff_over_max_bytes': 2} | total rows 4113
+[19:44:00] rocksdanister/lively (19596★): scanning PRs
+[19:44:13] rocksdanister/lively: {'scanned': 34, 'dependency_package_reference': 1, 'no_cs_files': 13, 'written': 13, 'rejected': 4, 'merged': 9, 'dependency_nuget_file': 7} | total rows 4126
+[19:44:13] TGSAN/CMWTAT_Digital_Edition (19442★): scanning PRs
+[19:44:13] TGSAN/CMWTAT_Digital_Edition: {'scanned': 2, 'no_cs_files': 2} | total rows 4126
+[19:44:13] ppy/osu (19040★): scanning PRs
+[19:46:03] ppy/osu: scanned 250, written 189
+[19:47:06] ppy/osu: {'scanned': 380, 'commit_after_cutoff': 11, 'written': 300, 'merged': 275, 'no_cs_files': 29, 'rejected': 25, 'body_edited_after_cutoff': 2, 'dependency_package_reference': 18, 'diff_too_large_for_api': 1, 'bot_or_ghost_author': 19} | total rows 4426
+[19:47:06] ardalis/CleanArchitecture (18472★): scanning PRs
+[19:47:36] ardalis/CleanArchitecture: {'scanned': 90, 'bot_or_ghost_author': 25, 'no_cs_files': 16, 'dependency_package_reference': 21, 'dependency_title': 3, 'commit_after_cutoff': 1, 'written': 20, 'merged': 17, 'diff_over_max_bytes': 4, 'rejected': 3} | total rows 4446
+[19:47:36] DapperLib/Dapper (18384★): scanning PRs
+[19:49:35] DapperLib/Dapper: scanned 250, written 169
+[19:51:01] DapperLib/Dapper: {'scanned': 439, 'written': 300, 'merged': 137, 'pending': 27, 'no_cs_files': 78, 'rejected': 136, 'dependency_package_reference': 42, 'commit_after_cutoff': 1, 'dependency_nuget_file': 6, 'dependency_project_json': 11, 'bot_or_ghost_author': 1} | total rows 4746
+[19:51:01] hellzerg/optimizer (18295★): scanning PRs
+[19:51:02] hellzerg/optimizer: {'scanned': 1, 'no_cs_files': 1} | total rows 4746
+[19:51:02] dotnet/runtime (18267★): scanning PRs
+[19:52:19] dotnet/runtime: scanned 250, written 104
+[19:53:46] dotnet/runtime: scanned 500, written 224
+[19:54:47] dotnet/runtime: {'scanned': 670, 'commit_after_cutoff': 55, 'no_cs_files': 271, 'written': 300, 'merged': 269, 'body_edited_after_cutoff': 2, 'bot_or_ghost_author': 33, 'dependency_package_reference': 8, 'rejected': 31, 'dependency_title': 1} | total rows 5046
+[19:54:47] netchx/netch (17699★): scanning PRs
+[19:55:47] netchx/netch: {'scanned': 154, 'dependency_package_reference': 8, 'bot_or_ghost_author': 33, 'written': 86, 'rejected': 20, 'no_cs_files': 26, 'merged': 66, 'dependency_nuget_file': 1} | total rows 5132
+[19:55:47] OpenRA/OpenRA (17365★): scanning PRs
+[19:57:14] OpenRA/OpenRA: scanned 250, written 129
+[19:59:00] OpenRA/OpenRA: {'scanned': 492, 'commit_after_cutoff': 32, 'written': 300, 'rejected': 65, 'no_cs_files': 148, 'merged': 233, 'pending': 2, 'dependency_package_reference': 8, 'diff_too_large_for_api': 4} | total rows 5432
+[19:59:00] MaterialDesignInXAML/MaterialDesignInXamlToolkit (16253★): scanning PRs
+[20:00:42] MaterialDesignInXAML/MaterialDesignInXamlToolkit: scanned 250, written 161
+[20:02:51] MaterialDesignInXAML/MaterialDesignInXamlToolkit: scanned 500, written 263
+[20:03:33] MaterialDesignInXAML/MaterialDesignInXamlToolkit: {'scanned': 584, 'written': 300, 'merged': 279, 'no_cs_files': 186, 'bot_or_ghost_author': 3, 'dependency_package_reference': 12, 'commit_after_cutoff': 1, 'dependency_nuget_file': 18, 'rejected': 21, 'diff_over_max_bytes': 64} | total rows 5732
+[20:03:33] Tyrrrz/YoutubeDownloader (16168★): scanning PRs
+[20:03:44] Tyrrrz/YoutubeDownloader: {'scanned': 24, 'dependency_package_reference': 2, 'written': 17, 'rejected': 5, 'no_cs_files': 5, 'merged': 12} | total rows 5749
+[20:03:44] nilaoda/N_m3u8DL-CLI (16088★): scanning PRs
+[20:03:46] nilaoda/N_m3u8DL-CLI: {'scanned': 6, 'written': 3, 'rejected': 2, 'merged': 1, 'no_cs_files': 3} | total rows 5752
+[20:03:46] Jackett/Jackett (16026★): scanning PRs
+[20:05:19] Jackett/Jackett: scanned 250, written 161
+[20:06:37] Jackett/Jackett: {'scanned': 438, 'no_cs_files': 133, 'written': 300, 'merged': 280, 'commit_after_cutoff': 2, 'rejected': 20, 'dependency_package_reference': 3} | total rows 6052
+[20:06:37] Sonarr/Sonarr (15920★): scanning PRs
+[20:08:17] Sonarr/Sonarr: scanned 250, written 168
+[20:09:33] Sonarr/Sonarr: {'scanned': 429, 'commit_after_cutoff': 4, 'no_cs_files': 99, 'written': 300, 'merged': 187, 'rejected': 113, 'dependency_package_reference': 9, 'bot_or_ghost_author': 3, 'dependency_nuget_file': 14} | total rows 6352
+[20:09:33] Perfare/AssetStudio (15593★): scanning PRs
+[20:10:00] Perfare/AssetStudio: {'scanned': 52, 'written': 44, 'merged': 26, 'rejected': 17, 'no_cs_files': 8, 'pending': 1} | total rows 6396
+[20:10:00] Flow-Launcher/Flow.Launcher (15549★): scanning PRs
+[20:11:44] Flow-Launcher/Flow.Launcher: scanned 250, written 149
+[20:12:01] Flow-Launcher/Flow.Launcher: {'scanned': 296, 'no_cs_files': 82, 'written': 168, 'merged': 161, 'rejected': 7, 'dependency_package_reference': 34, 'body_edited_after_cutoff': 1, 'commit_after_cutoff': 3, 'dependency_title': 7, 'dependency_nuget_file': 1} | total rows 6564
+[20:12:01] Tichau/FileConverter (15194★): scanning PRs
+[20:12:16] Tichau/FileConverter: {'scanned': 31, 'written': 13, 'merged': 12, 'no_cs_files': 12, 'rejected': 1, 'dependency_package_reference': 1, 'dependency_nuget_file': 5} | total rows 6577
+[20:12:16] duplicati/duplicati (14987★): scanning PRs
+[20:13:53] duplicati/duplicati: scanned 250, written 168
+[20:15:08] duplicati/duplicati: {'scanned': 418, 'dependency_nuget_file': 22, 'no_cs_files': 91, 'written': 300, 'merged': 271, 'rejected': 29, 'dependency_package_reference': 3, 'dependency_title': 2} | total rows 6877
+[20:15:08] dotnet/efcore (14790★): scanning PRs
+[20:16:25] dotnet/efcore: scanned 250, written 114
+[20:18:05] dotnet/efcore: scanned 500, written 252
+[20:18:37] dotnet/efcore: {'scanned': 561, 'bot_or_ghost_author': 172, 'no_cs_files': 69, 'written': 300, 'rejected': 37, 'merged': 263, 'commit_after_cutoff': 7, 'dependency_title': 2, 'dependency_package_reference': 6, 'diff_too_large_for_api': 5} | total rows 7177
+[20:18:37] abpframework/abp (14429★): scanning PRs
+[20:19:38] abpframework/abp: scanned 250, written 79
+[20:20:36] abpframework/abp: scanned 500, written 146
+[20:21:40] abpframework/abp: scanned 750, written 213
+[20:22:45] abpframework/abp: {'scanned': 908, 'bot_or_ghost_author': 302, 'no_cs_files': 275, 'written': 300, 'merged': 276, 'dependency_package_reference': 16, 'rejected': 24, 'diff_too_large_for_api': 6, 'commit_after_cutoff': 5, 'body_edited_after_cutoff': 1, 'diff_over_max_bytes': 2, 'dependency_title': 1} | total rows 7477
+[20:22:45] MonoGame/MonoGame (14414★): scanning PRs
+[20:24:14] MonoGame/MonoGame: scanned 250, written 127
+[20:25:49] MonoGame/MonoGame: scanned 500, written 275
+[20:26:07] MonoGame/MonoGame: {'scanned': 545, 'commit_after_cutoff': 6, 'written': 300, 'merged': 232, 'no_cs_files': 198, 'rejected': 68, 'dependency_package_reference': 27, 'dependency_title': 1, 'body_edited_after_cutoff': 1, 'dependency_project_json': 1, 'dependency_nuget_file': 6, 'bot_or_ghost_author': 3, 'diff_too_large_for_api': 2} | total rows 7777
+[20:26:07] Radarr/Radarr (14345★): scanning PRs
+[20:27:24] Radarr/Radarr: scanned 250, written 100
+[20:28:42] Radarr/Radarr: scanned 500, written 210
+[20:29:39] rate limit reached, sleeping 395s
+[20:36:15] Radarr/Radarr: {'scanned': 625, 'no_cs_files': 198, 'commit_after_cutoff': 15, 'written': 300, 'merged': 247, 'bot_or_ghost_author': 90, 'dependency_package_reference': 16, 'rejected': 53, 'dependency_title': 1, 'dependency_nuget_file': 4, 'diff_too_large_for_api': 1} | total rows 8077
+[20:36:15] d2phap/ImageGlass (14338★): scanning PRs
+[20:37:22] d2phap/ImageGlass: {'scanned': 163, 'written': 99, 'merged': 95, 'dependency_nuget_file': 36, 'no_cs_files': 27, 'rejected': 4, 'bot_or_ghost_author': 1} | total rows 8176
+[20:37:22] winsw/winsw (14287★): scanning PRs
+[20:38:39] winsw/winsw: scanned 250, written 115
+[20:39:21] network error (('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))); retrying
+[20:39:38] winsw/winsw: {'scanned': 412, 'bot_or_ghost_author': 44, 'written': 211, 'merged': 193, 'no_cs_files': 119, 'commit_after_cutoff': 1, 'dependency_package_reference': 24, 'dependency_title': 3, 'rejected': 16, 'pending': 2, 'dependency_nuget_file': 10} | total rows 8387
+[20:39:38] App-vNext/Polly (14237★): scanning PRs
+[20:41:16] App-vNext/Polly: scanned 250, written 130
+[20:41:56] App-vNext/Polly: {'scanned': 371, 'dependency_package_reference': 23, 'written': 186, 'merged': 158, 'no_cs_files': 142, 'rejected': 28, 'dependency_nuget_file': 14, 'dependency_project_json': 4, 'bot_or_ghost_author': 2} | total rows 8573
+[20:41:56] SubtitleEdit/subtitleedit (14175★): scanning PRs
+[20:43:49] SubtitleEdit/subtitleedit: scanned 250, written 185
+[20:44:57] SubtitleEdit/subtitleedit: {'scanned': 380, 'no_cs_files': 79, 'written': 300, 'merged': 242, 'rejected': 58, 'diff_too_large_for_api': 1} | total rows 8873
+[20:44:57] QuestPDF/QuestPDF (14173★): scanning PRs
+[20:45:02] QuestPDF/QuestPDF: {'scanned': 7, 'written': 3, 'merged': 3, 'diff_too_large_for_api': 3, 'no_cs_files': 1} | total rows 8876
+[20:45:02] kgrzybek/modular-monolith-with-ddd (14011★): scanning PRs
+[20:45:35] kgrzybek/modular-monolith-with-ddd: {'scanned': 89, 'no_cs_files': 30, 'written': 47, 'merged': 43, 'rejected': 4, 'dependency_package_reference': 11, 'diff_too_large_for_api': 1} | total rows 8923
+[20:45:35] JosefNemec/Playnite (13940★): scanning PRs
+[20:46:34] JosefNemec/Playnite: {'scanned': 238, 'written': 81, 'rejected': 18, 'dependency_nuget_file': 5, 'no_cs_files': 146, 'merged': 63, 'bot_or_ghost_author': 2, 'dependency_package_reference': 4} | total rows 9004
+[20:46:34] nilaoda/BBDown (13886★): scanning PRs
+[20:46:35] nilaoda/BBDown: {} | total rows 9004
+[20:46:35] JustArchiNET/ArchiSteamFarm (13684★): scanning PRs
+[20:46:59] JustArchiNET/ArchiSteamFarm: scanned 250, written 15
+[20:47:27] JustArchiNET/ArchiSteamFarm: scanned 500, written 36
+[20:47:48] JustArchiNET/ArchiSteamFarm: scanned 750, written 42
+[20:48:08] JustArchiNET/ArchiSteamFarm: scanned 1000, written 49
+[20:48:59] JustArchiNET/ArchiSteamFarm: scanned 1250, written 103
+[20:49:08] JustArchiNET/ArchiSteamFarm: {'scanned': 1269, 'bot_or_ghost_author': 1019, 'written': 119, 'merged': 94, 'rejected': 25, 'no_cs_files': 116, 'dependency_package_reference': 13, 'dependency_nuget_file': 2} | total rows 9123
+[20:49:08] dotnet/AspNetCore.Docs (13135★): scanning PRs
+[20:49:50] dotnet/AspNetCore.Docs: scanned 250, written 29
+[20:50:36] dotnet/AspNetCore.Docs: scanned 500, written 64
+[20:51:16] dotnet/AspNetCore.Docs: scanned 750, written 89
+[20:51:56] dotnet/AspNetCore.Docs: scanned 1000, written 118
+[20:52:37] dotnet/AspNetCore.Docs: scanned 1250, written 141
+[20:53:14] dotnet/AspNetCore.Docs: scanned 1500, written 161
+[20:53:55] dotnet/AspNetCore.Docs: scanned 1750, written 188
+[20:54:39] dotnet/AspNetCore.Docs: scanned 2000, written 226
+[20:55:17] dotnet/AspNetCore.Docs: scanned 2250, written 248
+[20:55:58] dotnet/AspNetCore.Docs: scanned 2500, written 277
+[20:56:34] dotnet/AspNetCore.Docs: {'scanned': 2688, 'no_cs_files': 2248, 'written': 300, 'merged': 269, 'dependency_package_reference': 123, 'rejected': 31, 'diff_too_large_for_api': 6, 'bot_or_ghost_author': 3, 'diff_over_max_bytes': 5, 'dependency_title': 1, 'dependency_nuget_file': 2} | total rows 9423
+[20:56:34] Unity-Technologies/UnityCsReference (12984★): scanning PRs
+[20:56:47] Unity-Technologies/UnityCsReference: {'scanned': 15, 'written': 11, 'rejected': 9, 'pending': 2, 'diff_too_large_for_api': 3, 'no_cs_files': 1} | total rows 9434
+[20:56:47] dotnet/csharplang (12699★): scanning PRs
+[20:57:10] dotnet/csharplang: scanned 250, written 0
+[20:57:35] dotnet/csharplang: scanned 500, written 1
+[20:57:47] dotnet/csharplang: {'scanned': 638, 'no_cs_files': 636, 'written': 1, 'merged': 1, 'bot_or_ghost_author': 1} | total rows 9435
+[20:57:47] aspnetboilerplate/aspnetboilerplate (12002★): scanning PRs
+[20:59:31] aspnetboilerplate/aspnetboilerplate: scanned 250, written 165
+[21:00:57] aspnetboilerplate/aspnetboilerplate: {'scanned': 439, 'no_cs_files': 113, 'written': 300, 'merged': 268, 'rejected': 32, 'dependency_package_reference': 24, 'diff_too_large_for_api': 1, 'dependency_nuget_file': 1} | total rows 9735
+[21:00:57] Tyrrrz/DiscordChatExporter (11983★): scanning PRs
+[21:01:31] Tyrrrz/DiscordChatExporter: {'scanned': 68, 'commit_after_cutoff': 1, 'written': 44, 'merged': 40, 'no_cs_files': 12, 'rejected': 4, 'dependency_package_reference': 7, 'body_edited_after_cutoff': 1, 'dependency_nuget_file': 3} | total rows 9779
+[21:01:31] LuckyPennySoftware/MediatR (11858★): scanning PRs
+[21:02:39] LuckyPennySoftware/MediatR: {'scanned': 156, 'written': 98, 'merged': 68, 'rejected': 30, 'no_cs_files': 27, 'dependency_package_reference': 16, 'commit_after_cutoff': 2, 'dependency_project_json': 8, 'dependency_nuget_file': 5} | total rows 9877
+[21:02:39] lucasg/Dependencies (11833★): scanning PRs
+[21:02:55] lucasg/Dependencies: {'scanned': 36, 'written': 29, 'merged': 13, 'rejected': 16, 'dependency_nuget_file': 1, 'no_cs_files': 6} | total rows 9906
+[21:02:55] xupefei/Locale-Emulator (11685★): scanning PRs
+[21:03:05] xupefei/Locale-Emulator: {'scanned': 48, 'no_cs_files': 38, 'written': 10, 'merged': 7, 'rejected': 3} | total rows 9916
+[21:03:05] Kareadita/Kavita (11665★): scanning PRs
+[21:04:15] Kareadita/Kavita: {'scanned': 150, 'written': 95, 'merged': 93, 'no_cs_files': 32, 'dependency_package_reference': 20, 'rejected': 2, 'dependency_title': 2, 'dependency_nuget_file': 1} | total rows 10011
+[21:04:15] lostindark/DriverStoreExplorer (11619★): scanning PRs
+[21:04:25] lostindark/DriverStoreExplorer: {'scanned': 63, 'no_cs_files': 54, 'written': 9, 'merged': 8, 'rejected': 1} | total rows 10020
+[21:04:25] spectreconsole/spectre.console (11618★): scanning PRs
+[21:06:19] spectreconsole/spectre.console: scanned 250, written 178
+[21:06:24] spectreconsole/spectre.console: {'scanned': 258, 'written': 186, 'merged': 175, 'dependency_package_reference': 22, 'no_cs_files': 46, 'diff_over_max_bytes': 3, 'rejected': 11, 'diff_too_large_for_api': 1} | total rows 10206
+[21:06:24] chocolatey/choco (11506★): scanning PRs
+[21:07:44] chocolatey/choco: scanned 250, written 122
+[21:08:04] chocolatey/choco: {'scanned': 317, 'commit_after_cutoff': 9, 'no_cs_files': 144, 'diff_too_large_for_api': 2, 'written': 153, 'merged': 45, 'rejected': 104, 'bot_or_ghost_author': 2, 'pending': 4, 'dependency_nuget_file': 5, 'dependency_package_reference': 1, 'body_edited_after_cutoff': 1} | total rows 10359
+[21:08:04] dotnet/BenchmarkDotNet (11494★): scanning PRs
+[21:09:45] dotnet/BenchmarkDotNet: scanned 250, written 166
+[21:11:19] dotnet/BenchmarkDotNet: {'scanned': 454, 'no_cs_files': 118, 'written': 300, 'merged': 259, 'rejected': 37, 'commit_after_cutoff': 4, 'pending': 4, 'dependency_package_reference': 29, 'body_edited_after_cutoff': 1, 'dependency_title': 1, 'diff_too_large_for_api': 1} | total rows 10659
+[21:11:19] mono/mono (11463★): scanning PRs
+[21:12:20] mono/mono: scanned 250, written 76
+[21:12:56] mono/mono: scanned 500, written 103
+[21:13:44] mono/mono: scanned 750, written 156
+[21:14:57] mono/mono: scanned 1000, written 255
+[21:15:39] mono/mono: {'scanned': 1159, 'no_cs_files': 834, 'written': 300, 'merged': 237, 'rejected': 48, 'pending': 15, 'diff_too_large_for_api': 5, 'commit_after_cutoff': 2, 'dependency_title': 6, 'dependency_package_reference': 9, 'bot_or_ghost_author': 3} | total rows 10959
+[21:15:39] File-New-Project/EarTrumpet (11349★): scanning PRs
+[21:15:57] File-New-Project/EarTrumpet: {'scanned': 65, 'no_cs_files': 32, 'written': 27, 'rejected': 13, 'merged': 14, 'dependency_nuget_file': 4, 'bot_or_ghost_author': 2} | total rows 10986
+[21:15:57] JamesNK/Newtonsoft.Json (11315★): scanning PRs
+[21:17:46] JamesNK/Newtonsoft.Json: scanned 250, written 194
+[21:18:49] JamesNK/Newtonsoft.Json: {'scanned': 373, 'written': 300, 'pending': 33, 'merged': 186, 'rejected': 81, 'dependency_package_reference': 13, 'no_cs_files': 51, 'body_edited_after_cutoff': 2, 'dependency_title': 1, 'diff_too_large_for_api': 3, 'dependency_project_json': 3} | total rows 11286
+[21:18:49] tui-cs/Terminal.Gui (11210★): scanning PRs
+[21:20:19] tui-cs/Terminal.Gui: scanned 250, written 159
+[21:21:40] tui-cs/Terminal.Gui: {'scanned': 417, 'commit_after_cutoff': 5, 'written': 300, 'merged': 277, 'bot_or_ghost_author': 22, 'no_cs_files': 73, 'rejected': 23, 'dependency_package_reference': 16, 'body_edited_after_cutoff': 1} | total rows 11586
+[21:21:40] Cysharp/UniTask (11187★): scanning PRs
+[21:22:08] Cysharp/UniTask: {'scanned': 70, 'no_cs_files': 20, 'written': 48, 'merged': 35, 'rejected': 13, 'diff_too_large_for_api': 2} | total rows 11634
+[21:22:08] mRemoteNG/mRemoteNG (11095★): scanning PRs
+[21:23:59] mRemoteNG/mRemoteNG: scanned 250, written 158
+[21:24:26] mRemoteNG/mRemoteNG: {'scanned': 315, 'no_cs_files': 89, 'written': 189, 'merged': 152, 'rejected': 37, 'commit_after_cutoff': 3, 'diff_too_large_for_api': 6, 'diff_over_max_bytes': 1, 'dependency_nuget_file': 21, 'dependency_package_reference': 6} | total rows 11823
+[21:24:26] coding-horror/basic-computer-games (11094★): scanning PRs
+[21:25:05] coding-horror/basic-computer-games: scanned 250, written 32
+[21:25:11] coding-horror/basic-computer-games: {'scanned': 289, 'written': 37, 'merged': 35, 'no_cs_files': 249, 'rejected': 2, 'dependency_package_reference': 3} | total rows 11860
+[21:25:11] YSGStudyHards/DotNetGuide (10942★): scanning PRs
+[21:25:11] YSGStudyHards/DotNetGuide: {} | total rows 11860
+[21:25:11] dotnet/orleans (10860★): scanning PRs
+[21:27:12] dotnet/orleans: scanned 250, written 162
+[21:28:54] dotnet/orleans: {'scanned': 460, 'commit_after_cutoff': 6, 'dependency_package_reference': 40, 'no_cs_files': 105, 'written': 300, 'merged': 280, 'body_edited_after_cutoff': 1, 'dependency_nuget_file': 4, 'rejected': 19, 'diff_too_large_for_api': 3, 'dependency_title': 1, 'pending': 1} | total rows 12160
+[21:28:54] MathewSachin/Captura (10827★): scanning PRs
+[21:30:13] MathewSachin/Captura: {'scanned': 235, 'no_cs_files': 90, 'written': 108, 'pending': 3, 'merged': 98, 'rejected': 7, 'dependency_package_reference': 15, 'dependency_nuget_file': 20, 'dependency_title': 1, 'bot_or_ghost_author': 1} | total rows 12268
+[21:30:13] StockSharp/StockSharp (10738★): scanning PRs
+[21:31:38] StockSharp/StockSharp: scanned 250, written 69
+[21:31:40] StockSharp/StockSharp: {'scanned': 252, 'no_cs_files': 173, 'diff_too_large_for_api': 4, 'dependency_package_reference': 1, 'written': 72, 'rejected': 21, 'merged': 51, 'diff_over_max_bytes': 1, 'dependency_nuget_file': 1} | total rows 12340
+[21:31:40] dotnet-architecture/eShopOnWeb (10682★): scanning PRs
+[21:33:24] dotnet-architecture/eShopOnWeb: scanned 250, written 126
+[21:33:28] dotnet-architecture/eShopOnWeb: {'scanned': 260, 'commit_after_cutoff': 1, 'written': 131, 'merged': 109, 'rejected': 22, 'no_cs_files': 79, 'dependency_package_reference': 43, 'dependency_title': 1, 'diff_too_large_for_api': 3, 'diff_over_max_bytes': 1, 'bot_or_ghost_author': 1} | total rows 12471
+[21:33:28] MudBlazor/MudBlazor (10596★): scanning PRs
+[21:34:15] rate limit reached, sleeping 122s
+[21:37:16] MudBlazor/MudBlazor: scanned 250, written 163
+[21:38:47] MudBlazor/MudBlazor: scanned 500, written 299
+[21:38:52] MudBlazor/MudBlazor: {'scanned': 503, 'written': 300, 'merged': 263, 'rejected': 37, 'commit_after_cutoff': 6, 'no_cs_files': 179, 'dependency_package_reference': 15, 'bot_or_ghost_author': 3} | total rows 12771
+[21:38:52] dodyg/practical-aspnetcore (10407★): scanning PRs
+[21:39:09] dodyg/practical-aspnetcore: {'scanned': 45, 'dependency_package_reference': 17, 'written': 13, 'merged': 12, 'no_cs_files': 15, 'rejected': 1} | total rows 12784
+[21:39:09] studyzy/imewlconverter (10328★): scanning PRs
+[21:39:13] studyzy/imewlconverter: {'scanned': 10, 'no_cs_files': 3, 'written': 5, 'rejected': 1, 'merged': 4, 'bot_or_ghost_author': 2} | total rows 12789
+[21:39:13] runcat-dev/RunCat365 (10302★): scanning PRs
+[21:39:18] runcat-dev/RunCat365: {'scanned': 8, 'written': 7, 'merged': 7, 'no_cs_files': 1} | total rows 12796
+[21:39:18] cefsharp/CefSharp (10253★): scanning PRs
+[21:40:57] cefsharp/CefSharp: scanned 250, written 147
+[21:42:32] cefsharp/CefSharp: {'scanned': 470, 'no_cs_files': 133, 'written': 300, 'rejected': 72, 'merged': 227, 'dependency_package_reference': 2, 'dependency_nuget_file': 32, 'diff_too_large_for_api': 3, 'pending': 1} | total rows 13096
+[21:42:32] 0x7c13/Notepads (10251★): scanning PRs
+[21:43:40] 0x7c13/Notepads: scanned 250, written 56
+[21:44:21] 0x7c13/Notepads: {'scanned': 439, 'no_cs_files': 216, 'bot_or_ghost_author': 96, 'written': 108, 'merged': 85, 'dependency_package_reference': 13, 'commit_after_cutoff': 3, 'pending': 7, 'rejected': 16, 'dependency_nuget_file': 3} | total rows 13204
+[21:44:21] LuckyPennySoftware/AutoMapper (10189★): scanning PRs
+[21:45:52] LuckyPennySoftware/AutoMapper: scanned 250, written 157
+[21:47:10] LuckyPennySoftware/AutoMapper: {'scanned': 432, 'written': 300, 'rejected': 55, 'no_cs_files': 105, 'merged': 245, 'commit_after_cutoff': 1, 'dependency_package_reference': 20, 'diff_too_large_for_api': 1, 'dependency_nuget_file': 5} | total rows 13504
+[21:47:10] nopSolutions/nopCommerce (10145★): scanning PRs
+[21:49:10] nopSolutions/nopCommerce: scanned 250, written 142
+[21:50:52] nopSolutions/nopCommerce: scanned 500, written 282
+[21:51:04] nopSolutions/nopCommerce: {'scanned': 523, 'written': 300, 'rejected': 185, 'merged': 114, 'no_cs_files': 175, 'dependency_package_reference': 23, 'diff_too_large_for_api': 11, 'commit_after_cutoff': 3, 'diff_over_max_bytes': 1, 'pending': 1, 'dependency_nuget_file': 9, 'bot_or_ghost_author': 1} | total rows 13804
+[21:51:04] HangfireIO/Hangfire (10137★): scanning PRs
+[21:52:51] HangfireIO/Hangfire: scanned 250, written 182
+[21:53:59] HangfireIO/Hangfire: {'scanned': 434, 'no_cs_files': 74, 'written': 298, 'merged': 162, 'commit_after_cutoff': 5, 'dependency_package_reference': 16, 'pending': 27, 'rejected': 109, 'dependency_nuget_file': 33, 'dependency_project_json': 1, 'bot_or_ghost_author': 6, 'diff_too_large_for_api': 1} | total rows 14102
+[21:53:59] unoplatform/uno (10049★): scanning PRs
+[21:55:10] unoplatform/uno: scanned 250, written 108
+[21:56:21] unoplatform/uno: scanned 500, written 208
+[21:57:20] unoplatform/uno: {'scanned': 672, 'commit_after_cutoff': 26, 'bot_or_ghost_author': 173, 'written': 300, 'merged': 284, 'no_cs_files': 136, 'rejected': 16, 'diff_too_large_for_api': 3, 'dependency_package_reference': 30, 'dependency_title': 3, 'body_edited_after_cutoff': 1} | total rows 14402
+[21:57:20] quasar/Quasar (9910★): scanning PRs
+[21:58:46] quasar/Quasar: {'scanned': 176, 'dependency_package_reference': 2, 'diff_too_large_for_api': 5, 'written': 151, 'merged': 105, 'rejected': 46, 'no_cs_files': 11, 'dependency_nuget_file': 6, 'bot_or_ghost_author': 1} | total rows 14553
+[21:58:46] egametang/ET (9907★): scanning PRs
+[22:00:00] egametang/ET: {'scanned': 165, 'written': 102, 'merged': 59, 'rejected': 43, 'no_cs_files': 42, 'dependency_package_reference': 10, 'diff_too_large_for_api': 11} | total rows 14655
+[22:00:00] TechnitiumSoftware/DnsServer (9876★): scanning PRs
+[22:00:05] TechnitiumSoftware/DnsServer: {'scanned': 10, 'no_cs_files': 4, 'dependency_package_reference': 1, 'written': 5, 'rejected': 3, 'merged': 2} | total rows 14660
+[22:00:05] Humanizr/Humanizer (9873★): scanning PRs
+[22:01:22] Humanizr/Humanizer: scanned 250, written 118
+[22:03:08] Humanizr/Humanizer: {'scanned': 494, 'bot_or_ghost_author': 74, 'written': 300, 'merged': 183, 'commit_after_cutoff': 7, 'rejected': 117, 'no_cs_files': 86, 'dependency_package_reference': 15, 'body_edited_after_cutoff': 3, 'dependency_nuget_file': 5, 'dependency_project_json': 4} | total rows 14960
+[22:03:08] restsharp/RestSharp (9825★): scanning PRs
+[22:04:54] restsharp/RestSharp: scanned 250, written 169
+[22:06:04] restsharp/RestSharp: {'scanned': 399, 'bot_or_ghost_author': 14, 'written': 300, 'merged': 220, 'no_cs_files': 47, 'rejected': 80, 'dependency_package_reference': 9, 'body_edited_after_cutoff': 1, 'dependency_nuget_file': 19, 'dependency_project_json': 9} | total rows 15260
+[22:06:04] finished: 15260 rows in result/CSharp/human_csharp_prs.csv
+[22:06:04] this run: {'scanned': 33680, 'written': 15260, 'merged': 12199, 'rejected': 2922, 'no_cs_files': 12972, 'dependency_package_reference': 1139, 'dependency_nuget_file': 403, 'pending': 139, 'bot_or_ghost_author': 3074, 'dependency_title': 59, 'diff_too_large_for_api': 174, 'commit_after_cutoff': 411, 'body_edited_after_cutoff': 42, 'diff_over_max_bytes': 102, 'dependency_project_json': 44}

@@ -1,0 +1,372 @@
+[22:17:06] rustdesk/rustdesk (123285★): scanning PRs
+[22:17:09] rustdesk/rustdesk: {'scanned': 14, 'no_rs_files': 11, 'written': 3, 'merged': 3} | total rows 3
+[22:17:09] rust-lang/rust (118483★): scanning PRs
+[22:18:19] rust-lang/rust: scanned 250, written 125
+[22:19:55] rust-lang/rust: scanned 500, written 279
+[22:20:11] rust-lang/rust: {'scanned': 530, 'rollup_pr': 47, 'commit_after_cutoff': 93, 'dependency_lockfile': 18, 'no_rs_files': 65, 'body_edited_after_cutoff': 6, 'written': 300, 'merged': 248, 'rejected': 52, 'dependency_cargo_toml': 1} | total rows 303
+[22:20:11] tauri-apps/tauri (111032★): scanning PRs
+[22:21:21] tauri-apps/tauri: scanned 250, written 96
+[22:22:21] tauri-apps/tauri: scanned 500, written 175
+[22:22:58] tauri-apps/tauri: scanned 750, written 213
+[22:23:43] tauri-apps/tauri: scanned 1000, written 254
+[22:24:29] tauri-apps/tauri: scanned 1250, written 287
+[22:24:44] tauri-apps/tauri: {'scanned': 1313, 'bot_or_ghost_author': 451, 'no_rs_files': 409, 'written': 300, 'merged': 290, 'dependency_cargo_toml': 96, 'rejected': 10, 'dependency_lockfile': 53, 'commit_after_cutoff': 1, 'dependency_title': 2, 'diff_too_large_for_api': 1} | total rows 603
+[22:24:44] denoland/deno (108416★): scanning PRs
+[22:25:47] denoland/deno: scanned 250, written 94
+[22:27:03] denoland/deno: scanned 500, written 221
+[22:27:55] denoland/deno: {'scanned': 694, 'commit_after_cutoff': 15, 'dependency_lockfile': 55, 'written': 300, 'merged': 251, 'no_rs_files': 317, 'rejected': 49, 'dependency_title': 4, 'dependency_cargo_toml': 2, 'diff_over_max_bytes': 1} | total rows 903
+[22:27:55] oven-sh/bun (95953★): scanning PRs
+[22:27:55] oven-sh/bun: {} | total rows 903
+[22:27:55] zed-industries/zed (90163★): scanning PRs
+[22:28:20] zed-industries/zed: {'scanned': 66, 'no_rs_files': 8, 'dependency_lockfile': 15, 'written': 41, 'merged': 39, 'rejected': 2, 'dependency_cargo_toml': 2} | total rows 944
+[22:28:20] BurntSushi/ripgrep (68216★): scanning PRs
+[22:29:41] BurntSushi/ripgrep: scanned 250, written 136
+[22:31:09] BurntSushi/ripgrep: scanned 500, written 290
+[22:31:18] BurntSushi/ripgrep: {'scanned': 515, 'commit_after_cutoff': 3, 'written': 300, 'merged': 201, 'no_rs_files': 159, 'dependency_lockfile': 42, 'rejected': 99, 'dependency_cargo_toml': 9, 'dependency_title': 2} | total rows 1244
+[22:31:18] dani-garcia/vaultwarden (67250★): scanning PRs
+[22:32:33] dani-garcia/vaultwarden: scanned 250, written 141
+[22:33:32] dani-garcia/vaultwarden: {'scanned': 446, 'no_rs_files': 160, 'written': 254, 'rejected': 24, 'merged': 230, 'dependency_lockfile': 26, 'commit_after_cutoff': 1, 'dependency_title': 2, 'bot_or_ghost_author': 2, 'dependency_cargo_toml': 1} | total rows 1498
+[22:33:32] alacritty/alacritty (65704★): scanning PRs
+[22:34:55] alacritty/alacritty: scanned 250, written 129
+[22:36:20] alacritty/alacritty: scanned 500, written 266
+[22:36:39] alacritty/alacritty: {'scanned': 549, 'no_rs_files': 171, 'written': 300, 'rejected': 63, 'commit_after_cutoff': 2, 'merged': 237, 'dependency_title': 22, 'dependency_lockfile': 46, 'diff_over_max_bytes': 2, 'dependency_cargo_toml': 6} | total rows 1798
+[22:36:39] rust-lang/rustlings (64135★): scanning PRs
+[22:38:00] rust-lang/rustlings: scanned 250, written 136
+[22:39:10] rust-lang/rustlings: {'scanned': 486, 'no_rs_files': 112, 'commit_after_cutoff': 4, 'written': 255, 'merged': 184, 'bot_or_ghost_author': 98, 'rejected': 71, 'dependency_lockfile': 14, 'dependency_cargo_toml': 3} | total rows 2053
+[22:39:10] FuelLabs/sway (61444★): scanning PRs
+[22:39:29] FuelLabs/sway: {'scanned': 49, 'commit_after_cutoff': 1, 'dependency_lockfile': 10, 'written': 16, 'merged': 16, 'no_rs_files': 11, 'dependency_cargo_toml': 11} | total rows 2069
+[22:39:29] sharkdp/bat (60436★): scanning PRs
+[22:40:06] sharkdp/bat: scanned 250, written 43
+[22:40:50] sharkdp/bat: scanned 500, written 96
+[22:41:37] sharkdp/bat: scanned 750, written 159
+[22:42:09] sharkdp/bat: {'scanned': 835, 'written': 221, 'merged': 197, 'no_rs_files': 355, 'commit_after_cutoff': 2, 'bot_or_ghost_author': 216, 'dependency_lockfile': 35, 'rejected': 24, 'dependency_title': 2, 'dependency_cargo_toml': 4} | total rows 2290
+[22:42:09] starship/starship (59878★): scanning PRs
+[22:43:13] starship/starship: scanned 250, written 90
+[22:44:20] starship/starship: scanned 500, written 195
+[22:45:24] starship/starship: scanned 750, written 286
+[22:45:35] starship/starship: {'scanned': 792, 'written': 300, 'merged': 249, 'commit_after_cutoff': 12, 'bot_or_ghost_author': 217, 'no_rs_files': 221, 'dependency_lockfile': 34, 'rejected': 48, 'body_edited_after_cutoff': 6, 'pending': 3, 'dependency_cargo_toml': 2} | total rows 2590
+[22:45:35] rust-unofficial/awesome-rust (59324★): scanning PRs
+[22:46:03] rust-unofficial/awesome-rust: scanned 250, written 9
+[22:46:29] rust-unofficial/awesome-rust: scanned 500, written 13
+[22:46:55] rust-unofficial/awesome-rust: scanned 750, written 14
+[22:47:16] rust-unofficial/awesome-rust: {'scanned': 976, 'no_rs_files': 958, 'written': 15, 'merged': 15, 'dependency_lockfile': 1, 'dependency_cargo_toml': 2} | total rows 2605
+[22:47:16] meilisearch/meilisearch (59273★): scanning PRs
+[22:48:21] meilisearch/meilisearch: scanned 250, written 99
+[22:49:35] meilisearch/meilisearch: scanned 500, written 214
+[22:50:30] meilisearch/meilisearch: {'scanned': 630, 'no_rs_files': 201, 'bot_or_ghost_author': 34, 'dependency_lockfile': 51, 'written': 280, 'merged': 258, 'rejected': 22, 'dependency_cargo_toml': 55, 'dependency_title': 7, 'diff_over_max_bytes': 2} | total rows 2885
+[22:50:30] FuelLabs/fuel-core (56850★): scanning PRs
+[22:50:37] FuelLabs/fuel-core: {'scanned': 19, 'commit_after_cutoff': 2, 'no_rs_files': 6, 'dependency_cargo_toml': 5, 'written': 6, 'merged': 5, 'rejected': 1} | total rows 2891
+[22:50:37] typst/typst (55983★): scanning PRs
+[22:50:50] typst/typst: {'scanned': 25, 'written': 20, 'merged': 20, 'dependency_cargo_toml': 5} | total rows 2911
+[22:50:50] bevyengine/bevy (48164★): scanning PRs
+[22:52:22] bevyengine/bevy: scanned 250, written 153
+[22:53:57] bevyengine/bevy: {'scanned': 455, 'written': 300, 'rejected': 299, 'commit_after_cutoff': 32, 'bot_or_ghost_author': 23, 'no_rs_files': 65, 'dependency_cargo_toml': 33, 'body_edited_after_cutoff': 1, 'merged': 1, 'diff_too_large_for_api': 1} | total rows 3211
+[22:53:57] helix-editor/helix (46201★): scanning PRs
+[22:55:14] helix-editor/helix: {'scanned': 210, 'no_rs_files': 30, 'commit_after_cutoff': 3, 'written': 142, 'rejected': 22, 'dependency_lockfile': 23, 'merged': 120, 'bot_or_ghost_author': 10, 'dependency_cargo_toml': 1, 'dependency_title': 1} | total rows 3353
+[22:55:14] sharkdp/fd (44390★): scanning PRs
+[22:56:28] sharkdp/fd: scanned 250, written 127
+[22:56:32] sharkdp/fd: {'scanned': 261, 'no_rs_files': 87, 'commit_after_cutoff': 2, 'written': 134, 'merged': 114, 'dependency_lockfile': 31, 'rejected': 20, 'dependency_cargo_toml': 6, 'dependency_title': 1} | total rows 3487
+[22:56:32] ccxt/ccxt (43972★): scanning PRs
+[22:56:56] ccxt/ccxt: scanned 250, written 0
+[22:57:17] ccxt/ccxt: scanned 500, written 0
+[22:57:43] ccxt/ccxt: scanned 750, written 0
+[22:58:09] ccxt/ccxt: scanned 1000, written 0
+[22:58:37] ccxt/ccxt: scanned 1250, written 0
+[22:59:02] ccxt/ccxt: scanned 1500, written 0
+[22:59:34] ccxt/ccxt: scanned 1750, written 0
+[23:00:00] ccxt/ccxt: scanned 2000, written 0
+[23:00:26] ccxt/ccxt: scanned 2250, written 0
+[23:00:54] ccxt/ccxt: scanned 2500, written 0
+[23:01:20] ccxt/ccxt: scanned 2750, written 0
+[23:01:43] ccxt/ccxt: scanned 3000, written 0
+[23:01:47] ccxt/ccxt: {'scanned': 3000, 'no_rs_files': 2987, 'bot_or_ghost_author': 12, 'rollup_pr': 1, 'hit_scan_limit': 1} | total rows 3487
+[23:01:47] nushell/nushell (40494★): scanning PRs
+[23:03:33] nushell/nushell: scanned 250, written 184
+[23:04:45] nushell/nushell: {'scanned': 424, 'dependency_lockfile': 56, 'written': 300, 'merged': 275, 'rejected': 25, 'no_rs_files': 52, 'dependency_cargo_toml': 8, 'dependency_title': 8} | total rows 3787
+[23:04:45] pola-rs/polars (39718★): scanning PRs
+[23:06:16] pola-rs/polars: scanned 250, written 150
+[23:08:05] pola-rs/polars: scanned 500, written 299
+[23:08:08] pola-rs/polars: {'scanned': 501, 'written': 300, 'merged': 292, 'no_rs_files': 82, 'dependency_lockfile': 56, 'rejected': 8, 'dependency_cargo_toml': 61, 'diff_too_large_for_api': 1, 'no_commits': 1} | total rows 4087
+[23:08:08] ajeetdsouza/zoxide (39430★): scanning PRs
+[23:08:31] ajeetdsouza/zoxide: {'scanned': 91, 'no_rs_files': 42, 'written': 37, 'merged': 34, 'dependency_lockfile': 10, 'commit_after_cutoff': 1, 'bot_or_ghost_author': 1, 'rejected': 3} | total rows 4124
+[23:08:31] DioxusLabs/dioxus (39069★): scanning PRs
+[23:08:36] DioxusLabs/dioxus: {'scanned': 8, 'dependency_cargo_toml': 3, 'no_rs_files': 1, 'written': 4, 'merged': 2, 'rejected': 2} | total rows 4128
+[23:08:36] lapce/lapce (38843★): scanning PRs
+[23:08:36] lapce/lapce: {} | total rows 4128
+[23:08:36] servo/servo (37964★): scanning PRs
+[23:09:02] servo/servo: scanned 250, written 23
+[23:09:38] servo/servo: scanned 500, written 32
+[23:10:56] servo/servo: scanned 750, written 61
+[23:11:53] servo/servo: scanned 1000, written 123
+[23:12:38] servo/servo: scanned 1250, written 169
+[23:13:25] servo/servo: scanned 1500, written 227
+[23:14:29] servo/servo: {'scanned': 1700, 'no_rs_files': 217, 'written': 300, 'merged': 270, 'rejected': 30, 'bot_or_ghost_author': 1079, 'dependency_lockfile': 93, 'commit_after_cutoff': 7, 'dependency_cargo_toml': 1, 'dependency_title': 1, 'diff_too_large_for_api': 2} | total rows 4428
+[23:14:29] firecracker-microvm/firecracker (36696★): scanning PRs
+[23:15:41] firecracker-microvm/firecracker: scanned 250, written 106
+[23:17:03] firecracker-microvm/firecracker: scanned 500, written 229
+[23:17:51] firecracker-microvm/firecracker: {'scanned': 630, 'no_rs_files': 238, 'written': 300, 'rejected': 42, 'merged': 258, 'dependency_lockfile': 79, 'dependency_cargo_toml': 8, 'commit_after_cutoff': 1, 'dependency_title': 4} | total rows 4728
+[23:17:51] pnpm/pnpm (36509★): scanning PRs
+[23:18:15] pnpm/pnpm: scanned 250, written 0
+[23:18:36] pnpm/pnpm: scanned 500, written 0
+[23:18:57] pnpm/pnpm: scanned 750, written 0
+[23:19:19] pnpm/pnpm: scanned 1000, written 0
+[23:19:39] pnpm/pnpm: scanned 1250, written 0
+[23:19:58] pnpm/pnpm: scanned 1500, written 0
+[23:20:12] pnpm/pnpm: {'scanned': 1688, 'no_rs_files': 886, 'bot_or_ghost_author': 802} | total rows 4728
+[23:20:12] casey/just (35764★): scanning PRs
+[23:21:19] casey/just: scanned 250, written 116
+[23:22:23] casey/just: scanned 500, written 231
+[23:22:33] casey/just: {'scanned': 540, 'no_rs_files': 205, 'dependency_lockfile': 74, 'written': 247, 'merged': 234, 'rejected': 13, 'commit_after_cutoff': 1, 'dependency_cargo_toml': 1, 'dependency_title': 10, 'bot_or_ghost_author': 2} | total rows 4975
+[23:22:33] zellij-org/zellij (35396★): scanning PRs
+[23:24:09] zellij-org/zellij: scanned 250, written 165
+[23:24:19] zellij-org/zellij: {'scanned': 274, 'commit_after_cutoff': 2, 'written': 184, 'rejected': 16, 'dependency_lockfile': 41, 'merged': 168, 'no_rs_files': 43, 'dependency_cargo_toml': 3, 'diff_too_large_for_api': 1} | total rows 5159
+[23:24:19] qdrant/qdrant (34514★): scanning PRs
+[23:24:25] qdrant/qdrant: {'scanned': 22, 'written': 4, 'merged': 4, 'bot_or_ghost_author': 6, 'dependency_lockfile': 7, 'dependency_cargo_toml': 2, 'no_rs_files': 3} | total rows 5163
+[23:24:25] swc-project/swc (34191★): scanning PRs
+[23:26:38] swc-project/swc: scanned 250, written 129
+[23:28:42] swc-project/swc: scanned 500, written 257
+[23:29:16] swc-project/swc: {'scanned': 560, 'commit_after_cutoff': 3, 'dependency_cargo_toml': 155, 'written': 300, 'merged': 274, 'no_rs_files': 81, 'rejected': 26, 'diff_too_large_for_api': 17, 'bot_or_ghost_author': 2, 'dependency_title': 2} | total rows 5463
+[23:29:16] fish-shell/fish-shell (34188★): scanning PRs
+[23:29:38] fish-shell/fish-shell: scanned 250, written 0
+[23:30:00] fish-shell/fish-shell: scanned 500, written 0
+[23:30:22] fish-shell/fish-shell: scanned 750, written 0
+[23:30:46] fish-shell/fish-shell: scanned 1000, written 0
+[23:31:09] fish-shell/fish-shell: scanned 1250, written 0
+[23:31:31] fish-shell/fish-shell: scanned 1500, written 0
+[23:31:53] fish-shell/fish-shell: scanned 1750, written 0
+[23:32:17] fish-shell/fish-shell: scanned 2000, written 0
+[23:32:39] fish-shell/fish-shell: scanned 2250, written 0
+[23:32:42] fish-shell/fish-shell: {'scanned': 2290, 'no_rs_files': 2288, 'bot_or_ghost_author': 2} | total rows 5463
+[23:32:42] tokio-rs/tokio (33135★): scanning PRs
+[23:34:27] tokio-rs/tokio: scanned 250, written 184
+[23:35:40] tokio-rs/tokio: {'scanned': 403, 'commit_after_cutoff': 10, 'written': 300, 'merged': 250, 'rejected': 50, 'no_rs_files': 57, 'dependency_cargo_toml': 34, 'dependency_title': 1, 'diff_too_large_for_api': 1} | total rows 5763
+[23:35:40] yewstack/yew (32802★): scanning PRs
+[23:36:55] yewstack/yew: scanned 250, written 84
+[23:38:16] yewstack/yew: scanned 500, written 183
+[23:39:39] yewstack/yew: {'scanned': 700, 'no_rs_files': 228, 'commit_after_cutoff': 7, 'dependency_cargo_toml': 100, 'written': 300, 'merged': 269, 'bot_or_ghost_author': 61, 'rejected': 31, 'diff_too_large_for_api': 1, 'body_edited_after_cutoff': 1, 'dependency_title': 2} | total rows 6063
+[23:39:39] dandavison/delta (32166★): scanning PRs
+[23:40:42] dandavison/delta: scanned 250, written 106
+[23:40:51] dandavison/delta: {'scanned': 270, 'written': 124, 'merged': 113, 'commit_after_cutoff': 3, 'no_rs_files': 70, 'bot_or_ghost_author': 61, 'rejected': 9, 'dependency_lockfile': 12, 'pending': 2} | total rows 6187
+[23:40:51] influxdata/influxdb (31737★): scanning PRs
+[23:41:13] influxdata/influxdb: scanned 250, written 0
+[23:41:36] influxdata/influxdb: scanned 500, written 0
+[23:41:58] influxdata/influxdb: scanned 750, written 0
+[23:42:22] influxdata/influxdb: scanned 1000, written 0
+[23:42:44] influxdata/influxdb: scanned 1250, written 0
+[23:43:06] influxdata/influxdb: scanned 1500, written 0
+[23:43:27] influxdata/influxdb: scanned 1750, written 0
+[23:43:49] influxdata/influxdb: scanned 2000, written 0
+[23:44:12] influxdata/influxdb: scanned 2250, written 0
+[23:44:34] influxdata/influxdb: scanned 2500, written 0
+[23:44:56] influxdata/influxdb: scanned 2750, written 0
+[23:45:18] influxdata/influxdb: scanned 3000, written 0
+[23:45:22] influxdata/influxdb: {'scanned': 3000, 'no_rs_files': 2998, 'bot_or_ghost_author': 2, 'hit_scan_limit': 1} | total rows 6187
+[23:45:22] atuinsh/atuin (31603★): scanning PRs
+[23:45:43] atuinsh/atuin: {'scanned': 91, 'bot_or_ghost_author': 31, 'dependency_lockfile': 17, 'diff_too_large_for_api': 1, 'no_rs_files': 16, 'written': 26, 'merged': 25, 'rejected': 1} | total rows 6213
+[23:45:43] jj-vcs/jj (31547★): scanning PRs
+[23:45:44] jj-vcs/jj: {'scanned': 2, 'written': 1, 'merged': 1, 'no_rs_files': 1} | total rows 6214
+[23:45:44] iced-rs/iced (31482★): scanning PRs
+[23:47:38] iced-rs/iced: scanned 250, written 153
+[23:48:28] iced-rs/iced: {'scanned': 345, 'dependency_cargo_toml': 89, 'commit_after_cutoff': 11, 'written': 215, 'merged': 184, 'no_rs_files': 26, 'rejected': 31, 'bot_or_ghost_author': 3, 'dependency_title': 1} | total rows 6429
+[23:48:28] sunface/rust-course (30910★): scanning PRs
+[23:48:30] sunface/rust-course: {'scanned': 20, 'bot_or_ghost_author': 19, 'no_rs_files': 1} | total rows 6429
+[23:48:30] emilk/egui (30528★): scanning PRs
+[23:49:32] emilk/egui: {'scanned': 151, 'written': 112, 'merged': 89, 'dependency_lockfile': 14, 'rejected': 23, 'commit_after_cutoff': 3, 'no_rs_files': 21, 'diff_over_max_bytes': 1} | total rows 6541
+[23:49:32] ankitects/anki (30500★): scanning PRs
+[23:50:23] ankitects/anki: scanned 250, written 57
+[23:51:00] ankitects/anki: scanned 500, written 82
+[23:51:27] ankitects/anki: scanned 750, written 89
+[23:51:52] ankitects/anki: scanned 1000, written 89
+[23:52:03] ankitects/anki: {'scanned': 1129, 'no_rs_files': 1032, 'commit_after_cutoff': 3, 'written': 89, 'merged': 67, 'rejected': 22, 'bot_or_ghost_author': 1, 'dependency_lockfile': 1, 'dependency_cargo_toml': 3} | total rows 6630
+[23:52:03] wezterm/wezterm (28865★): scanning PRs
+[23:53:02] wezterm/wezterm: {'scanned': 239, 'bot_or_ghost_author': 89, 'no_rs_files': 61, 'written': 70, 'rejected': 24, 'merged': 46, 'dependency_lockfile': 8, 'dependency_cargo_toml': 10, 'body_edited_after_cutoff': 1} | total rows 6700
+[23:53:02] sharkdp/hyperfine (28851★): scanning PRs
+[23:53:50] sharkdp/hyperfine: scanned 250, written 54
+[23:53:58] sharkdp/hyperfine: {'scanned': 272, 'no_rs_files': 32, 'bot_or_ghost_author': 157, 'commit_after_cutoff': 1, 'dependency_title': 1, 'written': 64, 'merged': 52, 'rejected': 12, 'dependency_cargo_toml': 5, 'dependency_lockfile': 12} | total rows 6764
+[23:53:58] nautechsystems/nautilus_trader (28842★): scanning PRs
+[23:54:51] nautechsystems/nautilus_trader: scanned 250, written 1
+[23:54:53] nautechsystems/nautilus_trader: {'scanned': 270, 'no_rs_files': 264, 'dependency_cargo_toml': 5, 'written': 1, 'merged': 1} | total rows 6765
+[23:54:53] GraphiteEditor/Graphite (27215★): scanning PRs
+[23:55:31] GraphiteEditor/Graphite: {'scanned': 114, 'commit_after_cutoff': 2, 'no_rs_files': 25, 'written': 62, 'merged': 57, 'bot_or_ghost_author': 5, 'dependency_lockfile': 17, 'rejected': 5, 'dependency_cargo_toml': 2, 'dependency_title': 1} | total rows 6827
+[23:55:31] oldj/SwitchHosts (27173★): scanning PRs
+[23:55:34] oldj/SwitchHosts: {'scanned': 45, 'no_rs_files': 42, 'bot_or_ghost_author': 3} | total rows 6827
+[23:55:34] tokio-rs/axum (27099★): scanning PRs
+[23:55:45] tokio-rs/axum: {'scanned': 19, 'written': 11, 'merged': 11, 'dependency_cargo_toml': 8} | total rows 6838
+[23:55:45] tree-sitter/tree-sitter (26933★): scanning PRs
+[23:57:17] tree-sitter/tree-sitter: scanned 250, written 100
+[23:57:49] tree-sitter/tree-sitter: {'scanned': 467, 'written': 126, 'merged': 106, 'no_rs_files': 302, 'dependency_lockfile': 21, 'commit_after_cutoff': 9, 'bot_or_ghost_author': 3, 'body_edited_after_cutoff': 2, 'rejected': 20, 'dependency_title': 1, 'diff_over_max_bytes': 1, 'dependency_cargo_toml': 2} | total rows 6964
+[23:57:49] Schniz/fnm (26834★): scanning PRs
+[23:58:25] Schniz/fnm: scanned 250, written 34
+[23:58:26] Schniz/fnm: {'scanned': 259, 'bot_or_ghost_author': 85, 'no_rs_files': 135, 'written': 34, 'merged': 32, 'commit_after_cutoff': 1, 'pending': 1, 'rejected': 1, 'dependency_lockfile': 4} | total rows 6998
+[23:58:26] TheAlgorithms/Rust (26042★): scanning PRs
+[23:59:51] TheAlgorithms/Rust: {'scanned': 183, 'commit_after_cutoff': 21, 'written': 134, 'merged': 46, 'no_rs_files': 28, 'rejected': 88} | total rows 7132
+[23:59:51] Wilfred/difftastic (25887★): scanning PRs
+[23:59:52] Wilfred/difftastic: {'scanned': 2, 'bot_or_ghost_author': 2} | total rows 7132
+[23:59:52] rwf2/Rocket (25782★): scanning PRs
+[00:01:41] rwf2/Rocket: scanned 250, written 123
+[00:03:29] rwf2/Rocket: scanned 500, written 267
+[00:04:00] rwf2/Rocket: {'scanned': 565, 'written': 296, 'rejected': 292, 'no_rs_files': 137, 'commit_after_cutoff': 6, 'dependency_cargo_toml': 120, 'dependency_title': 3, 'merged': 4, 'bot_or_ghost_author': 2, 'dependency_lockfile': 1} | total rows 7428
+[00:04:00] actix/actix-web (24827★): scanning PRs
+[00:06:05] actix/actix-web: scanned 250, written 171
+[00:07:43] actix/actix-web: {'scanned': 486, 'commit_after_cutoff': 10, 'dependency_cargo_toml': 86, 'written': 300, 'merged': 254, 'no_rs_files': 79, 'rejected': 46, 'dependency_title': 11} | total rows 7728
+[00:07:43] ogham/exa (24446★): scanning PRs
+[00:09:07] ogham/exa: {'scanned': 246, 'no_rs_files': 77, 'commit_after_cutoff': 6, 'body_edited_after_cutoff': 2, 'written': 149, 'pending': 1, 'merged': 121, 'dependency_lockfile': 11, 'rejected': 27, 'dependency_title': 1} | total rows 7877
+[00:09:07] uutils/coreutils (24073★): scanning PRs
+[00:10:52] uutils/coreutils: scanned 250, written 161
+[00:12:33] uutils/coreutils: scanned 500, written 288
+[00:12:45] uutils/coreutils: {'scanned': 515, 'commit_after_cutoff': 5, 'no_rs_files': 72, 'dependency_lockfile': 96, 'written': 300, 'merged': 277, 'rejected': 23, 'dependency_cargo_toml': 38, 'dependency_title': 4} | total rows 8177
+[00:12:45] slint-ui/slint (23794★): scanning PRs
+[00:13:06] slint-ui/slint: {'scanned': 54, 'written': 29, 'merged': 25, 'no_rs_files': 19, 'dependency_cargo_toml': 6, 'rejected': 4} | total rows 8206
+[00:13:06] rome/tools (23379★): scanning PRs
+[00:13:38] rome/tools: scanned 250, written 0
+[00:14:11] rome/tools: scanned 500, written 0
+[00:14:41] rome/tools: scanned 750, written 0
+[00:15:11] rome/tools: scanned 1000, written 0
+[00:15:19] rome/tools: {'scanned': 1079, 'no_rs_files': 1078, 'bot_or_ghost_author': 1} | total rows 8206
+[00:15:19] neondatabase/neon (23077★): scanning PRs
+[00:16:24] neondatabase/neon: {'scanned': 179, 'written': 106, 'rejected': 15, 'no_rs_files': 43, 'merged': 91, 'commit_after_cutoff': 2, 'dependency_lockfile': 28} | total rows 8312
+[00:16:24] vectordotdev/vector (22546★): scanning PRs
+[00:17:34] vectordotdev/vector: scanned 250, written 107
+[00:18:29] vectordotdev/vector: scanned 500, written 177
+[00:19:27] vectordotdev/vector: scanned 750, written 256
+[00:19:55] vectordotdev/vector: {'scanned': 841, 'no_rs_files': 240, 'bot_or_ghost_author': 216, 'dependency_lockfile': 70, 'written': 300, 'merged': 265, 'commit_after_cutoff': 6, 'rejected': 35, 'dependency_title': 4, 'dependency_cargo_toml': 5} | total rows 8612
+[00:19:55] gitui-org/gitui (22481★): scanning PRs
+[00:21:15] gitui-org/gitui: scanned 250, written 136
+[00:21:55] gitui-org/gitui: {'scanned': 426, 'bot_or_ghost_author': 139, 'no_rs_files': 47, 'written': 197, 'merged': 160, 'rejected': 34, 'dependency_lockfile': 40, 'pending': 3, 'dependency_cargo_toml': 1, 'dependency_title': 2} | total rows 8809
+[00:21:55] RustPython/RustPython (22342★): scanning PRs
+[00:22:54] RustPython/RustPython: scanned 250, written 80
+[00:24:35] RustPython/RustPython: scanned 500, written 249
+[00:25:06] RustPython/RustPython: {'scanned': 559, 'written': 300, 'merged': 274, 'commit_after_cutoff': 7, 'dependency_lockfile': 63, 'no_rs_files': 175, 'bot_or_ghost_author': 3, 'dependency_cargo_toml': 7, 'rejected': 26, 'dependency_title': 4} | total rows 9109
+[00:25:06] facebook/flow (22285★): scanning PRs
+[00:25:28] facebook/flow: scanned 250, written 0
+[00:25:50] facebook/flow: scanned 500, written 0
+[00:26:13] facebook/flow: scanned 750, written 0
+[00:26:35] facebook/flow: scanned 1000, written 0
+[00:26:57] facebook/flow: scanned 1250, written 0
+[00:27:19] facebook/flow: scanned 1500, written 0
+[00:27:40] facebook/flow: scanned 1750, written 0
+[00:28:00] facebook/flow: scanned 2000, written 0
+[00:28:08] facebook/flow: {'scanned': 2097, 'no_rs_files': 2068, 'bot_or_ghost_author': 29} | total rows 9109
+[00:28:08] rust-lang/mdBook (22138★): scanning PRs
+[00:29:20] rust-lang/mdBook: scanned 250, written 107
+[00:30:30] rust-lang/mdBook: scanned 500, written 207
+[00:31:45] rust-lang/mdBook: {'scanned': 707, 'commit_after_cutoff': 8, 'no_rs_files': 319, 'written': 300, 'pending': 7, 'dependency_cargo_toml': 33, 'merged': 250, 'dependency_lockfile': 37, 'rejected': 43, 'diff_over_max_bytes': 1, 'dependency_title': 9} | total rows 9409
+[00:31:45] gleam-lang/gleam (21907★): scanning PRs
+[00:33:33] gleam-lang/gleam: scanned 250, written 192
+[00:34:33] gleam-lang/gleam: {'scanned': 384, 'dependency_lockfile': 27, 'no_rs_files': 53, 'written': 300, 'merged': 260, 'rejected': 40, 'dependency_title': 2, 'body_edited_after_cutoff': 1, 'dependency_cargo_toml': 1} | total rows 9709
+[00:34:33] bee-san/Ciphey (21609★): scanning PRs
+[00:34:51] bee-san/Ciphey: scanned 250, written 0
+[00:35:04] bee-san/Ciphey: {'scanned': 399, 'no_rs_files': 205, 'bot_or_ghost_author': 194} | total rows 9709
+[00:35:04] valeriansaliou/sonic (21341★): scanning PRs
+[00:35:13] valeriansaliou/sonic: {'scanned': 40, 'no_rs_files': 26, 'written': 8, 'merged': 6, 'commit_after_cutoff': 1, 'dependency_lockfile': 3, 'dependency_cargo_toml': 2, 'rejected': 2} | total rows 9717
+[00:35:13] nikivdev/code (21116★): scanning PRs
+[00:35:17] nikivdev/code: {'scanned': 36, 'no_rs_files': 36} | total rows 9717
+[00:35:17] wasmerio/wasmer (21027★): scanning PRs
+[00:36:14] wasmerio/wasmer: scanned 250, written 70
+[00:37:26] wasmerio/wasmer: scanned 500, written 187
+[00:38:28] wasmerio/wasmer: scanned 750, written 279
+[00:38:46] wasmerio/wasmer: {'scanned': 808, 'written': 300, 'merged': 253, 'commit_after_cutoff': 3, 'no_rs_files': 177, 'rejected': 47, 'bot_or_ghost_author': 227, 'dependency_lockfile': 84, 'dependency_cargo_toml': 10, 'diff_too_large_for_api': 1, 'body_edited_after_cutoff': 1, 'dependency_title': 5} | total rows 10017
+[00:38:46] cube-js/cube (20813★): scanning PRs
+[00:39:20] cube-js/cube: scanned 250, written 27
+[00:39:50] cube-js/cube: scanned 500, written 47
+[00:40:28] cube-js/cube: scanned 750, written 82
+[00:40:55] cube-js/cube: scanned 1000, written 93
+[00:41:24] cube-js/cube: scanned 1250, written 96
+[00:41:46] cube-js/cube: scanned 1500, written 96
+[00:42:07] cube-js/cube: scanned 1750, written 96
+[00:42:22] cube-js/cube: {'scanned': 1901, 'no_rs_files': 1352, 'bot_or_ghost_author': 408, 'written': 96, 'merged': 81, 'dependency_lockfile': 43, 'dependency_title': 1, 'rejected': 13, 'dependency_cargo_toml': 1, 'pending': 2} | total rows 10113
+[00:42:22] bee-san/RustScan (20402★): scanning PRs
+[00:43:07] bee-san/RustScan: {'scanned': 243, 'no_rs_files': 52, 'bot_or_ghost_author': 100, 'dependency_title': 3, 'written': 62, 'merged': 56, 'commit_after_cutoff': 1, 'rejected': 6, 'dependency_lockfile': 19, 'dependency_cargo_toml': 6} | total rows 10175
+[00:43:07] xi-editor/xi-editor (19820★): scanning PRs
+[00:44:40] xi-editor/xi-editor: scanned 250, written 157
+[00:46:09] xi-editor/xi-editor: {'scanned': 455, 'written': 300, 'merged': 260, 'dependency_lockfile': 36, 'bot_or_ghost_author': 5, 'no_rs_files': 104, 'pending': 7, 'dependency_title': 4, 'rejected': 33, 'dependency_cargo_toml': 6} | total rows 10475
+[00:46:09] Rigellute/spotify-tui (19348★): scanning PRs
+[00:46:58] Rigellute/spotify-tui: scanned 250, written 64
+[00:47:52] Rigellute/spotify-tui: {'scanned': 465, 'written': 152, 'merged': 132, 'bot_or_ghost_author': 241, 'no_rs_files': 40, 'commit_after_cutoff': 2, 'rejected': 19, 'dependency_lockfile': 25, 'dependency_cargo_toml': 2, 'pending': 1, 'body_edited_after_cutoff': 1, 'dependency_title': 2} | total rows 10627
+[00:47:52] Orange-OpenSource/hurl (19195★): scanning PRs
+[00:48:40] Orange-OpenSource/hurl: {'scanned': 130, 'written': 79, 'merged': 79, 'dependency_lockfile': 11, 'no_rs_files': 39, 'dependency_cargo_toml': 1} | total rows 10706
+[00:48:40] facebook/relay (18962★): scanning PRs
+[00:49:07] facebook/relay: scanned 250, written 8
+[00:49:36] facebook/relay: scanned 500, written 8
+[00:50:02] facebook/relay: scanned 750, written 8
+[00:50:26] facebook/relay: scanned 1000, written 8
+[00:50:47] facebook/relay: scanned 1250, written 8
+[00:51:12] facebook/relay: scanned 1500, written 8
+[00:51:31] facebook/relay: scanned 1750, written 8
+[00:51:32] facebook/relay: {'scanned': 1756, 'no_rs_files': 1698, 'bot_or_ghost_author': 30, 'dependency_cargo_toml': 8, 'dependency_lockfile': 10, 'written': 8, 'rejected': 8, 'commit_after_cutoff': 1, 'diff_too_large_for_api': 1} | total rows 10714
+[00:51:32] bytecodealliance/wasmtime (18625★): scanning PRs
+[00:53:07] bytecodealliance/wasmtime: scanned 250, written 156
+[00:54:34] bytecodealliance/wasmtime: {'scanned': 478, 'written': 300, 'merged': 278, 'dependency_lockfile': 74, 'commit_after_cutoff': 10, 'rejected': 22, 'no_rs_files': 91, 'dependency_title': 3} | total rows 11014
+[00:54:34] ruffle-rs/ruffle (18513★): scanning PRs
+[00:55:42] ruffle-rs/ruffle: scanned 250, written 101
+[00:56:45] ruffle-rs/ruffle: scanned 500, written 188
+[00:57:51] ruffle-rs/ruffle: scanned 750, written 280
+[00:58:08] ruffle-rs/ruffle: {'scanned': 819, 'bot_or_ghost_author': 356, 'no_rs_files': 115, 'commit_after_cutoff': 13, 'written': 300, 'merged': 269, 'dependency_lockfile': 28, 'rejected': 29, 'dependency_title': 6, 'pending': 2, 'dependency_cargo_toml': 1} | total rows 11314
+[00:58:08] rust-lang/book (18296★): scanning PRs
+[00:58:53] rust-lang/book: scanned 250, written 40
+[00:59:19] rust-lang/book: scanned 500, written 48
+[00:59:43] rust-lang/book: scanned 750, written 50
+[01:00:04] rust-lang/book: scanned 1000, written 51
+[01:00:37] rust-lang/book: scanned 1250, written 58
+[01:00:51] rust-lang/book: {'scanned': 1394, 'no_rs_files': 1317, 'written': 60, 'rejected': 28, 'dependency_lockfile': 16, 'merged': 32, 'diff_too_large_for_api': 1} | total rows 11374
+[01:00:51] gfx-rs/wgpu (17994★): scanning PRs
+[01:14:22] gfx-rs/wgpu: scanned 250, written 148
+[01:25:41] gfx-rs/wgpu: {'scanned': 459, 'written': 300, 'merged': 278, 'no_rs_files': 40, 'dependency_lockfile': 96, 'diff_http_500': 16, 'rejected': 22, 'dependency_cargo_toml': 5, 'dependency_title': 2} | total rows 11674
+[01:25:41] kitao/pyxel (17847★): scanning PRs
+[01:25:49] kitao/pyxel: {'scanned': 98, 'no_rs_files': 98} | total rows 11674
+[01:25:49] asciinema/asciinema (17796★): scanning PRs
+[01:25:57] asciinema/asciinema: {'scanned': 87, 'no_rs_files': 87} | total rows 11674
+[01:25:57] denisidoro/navi (17536★): scanning PRs
+[01:27:08] denisidoro/navi: scanned 250, written 122
+[01:27:16] denisidoro/navi: {'scanned': 348, 'no_rs_files': 165, 'written': 122, 'merged': 121, 'dependency_lockfile': 52, 'bot_or_ghost_author': 8, 'rejected': 1, 'dependency_cargo_toml': 1} | total rows 11796
+[01:27:16] transact-rs/sqlx (17464★): scanning PRs
+[01:28:59] transact-rs/sqlx: scanned 250, written 178
+[01:30:12] transact-rs/sqlx: {'scanned': 430, 'commit_after_cutoff': 5, 'written': 300, 'rejected': 77, 'merged': 223, 'no_rs_files': 47, 'dependency_lockfile': 65, 'dependency_cargo_toml': 12, 'dependency_title': 1} | total rows 12096
+[01:30:12] getzola/zola (17429★): scanning PRs
+[01:31:10] getzola/zola: scanned 250, written 76
+[01:32:18] getzola/zola: scanned 500, written 176
+[01:32:45] getzola/zola: {'scanned': 620, 'no_rs_files': 275, 'commit_after_cutoff': 3, 'dependency_lockfile': 124, 'written': 209, 'merged': 171, 'rejected': 38, 'dependency_cargo_toml': 7, 'bot_or_ghost_author': 1, 'dependency_title': 1} | total rows 12305
+[01:32:45] tikv/tikv (16839★): scanning PRs
+[01:34:12] tikv/tikv: scanned 250, written 132
+[01:35:53] tikv/tikv: scanned 500, written 296
+[01:35:59] tikv/tikv: {'scanned': 506, 'commit_after_cutoff': 43, 'written': 300, 'rejected': 43, 'merged': 251, 'no_rs_files': 52, 'dependency_lockfile': 99, 'dependency_cargo_toml': 7, 'pending': 6, 'body_edited_after_cutoff': 3, 'dependency_title': 2} | total rows 12605
+[01:35:59] rust-lang/rust-analyzer (16835★): scanning PRs
+[01:37:59] rust-lang/rust-analyzer: scanned 250, written 212
+[01:38:51] rust-lang/rust-analyzer: {'scanned': 353, 'written': 300, 'merged': 296, 'no_rs_files': 39, 'rejected': 4, 'commit_after_cutoff': 2, 'dependency_title': 2, 'dependency_lockfile': 10} | total rows 12905
+[01:38:51] clap-rs/clap (16706★): scanning PRs
+[01:40:48] clap-rs/clap: scanned 250, written 199
+[01:41:54] clap-rs/clap: {'scanned': 400, 'written': 300, 'merged': 255, 'commit_after_cutoff': 4, 'no_rs_files': 67, 'rejected': 45, 'dependency_cargo_toml': 24, 'dependency_title': 4, 'bot_or_ghost_author': 1} | total rows 13205
+[01:41:54] diem/diem (16667★): scanning PRs
+[01:42:59] diem/diem: scanned 250, written 78
+[01:44:17] diem/diem: scanned 500, written 185
+[01:45:27] diem/diem: scanned 750, written 271
+[01:45:52] diem/diem: {'scanned': 812, 'no_rs_files': 199, 'commit_after_cutoff': 18, 'written': 300, 'merged': 257, 'dependency_lockfile': 150, 'rejected': 43, 'bot_or_ghost_author': 129, 'dependency_title': 3, 'diff_over_max_bytes': 5, 'dependency_cargo_toml': 5, 'diff_too_large_for_api': 3} | total rows 13505
+[01:45:52] redox-os/redox (16569★): scanning PRs
+[01:45:53] redox-os/redox: {} | total rows 13505
+[01:45:53] hyperium/hyper (16316★): scanning PRs
+[01:47:48] hyperium/hyper: scanned 250, written 177
+[01:49:13] hyperium/hyper: {'scanned': 430, 'commit_after_cutoff': 7, 'written': 300, 'merged': 234, 'no_rs_files': 52, 'dependency_cargo_toml': 65, 'rejected': 64, 'pending': 2, 'dependency_title': 6} | total rows 13805
+[01:49:13] lsd-rs/lsd (16217★): scanning PRs
+[01:50:33] lsd-rs/lsd: {'scanned': 235, 'no_rs_files': 64, 'written': 134, 'merged': 116, 'rejected': 18, 'dependency_lockfile': 33, 'commit_after_cutoff': 1, 'dependency_cargo_toml': 2, 'dependency_title': 1} | total rows 13939
+[01:50:33] PyO3/pyo3 (16129★): scanning PRs
+[01:52:20] PyO3/pyo3: scanned 250, written 171
+[01:53:50] PyO3/pyo3: {'scanned': 454, 'commit_after_cutoff': 5, 'written': 300, 'merged': 283, 'no_rs_files': 100, 'rejected': 16, 'pending': 1, 'dependency_cargo_toml': 33, 'bot_or_ghost_author': 15, 'dependency_title': 1} | total rows 14239
+[01:53:50] quickwit-oss/tantivy (16068★): scanning PRs
+[01:55:47] quickwit-oss/tantivy: scanned 250, written 169
+[01:57:26] quickwit-oss/tantivy: {'scanned': 474, 'commit_after_cutoff': 3, 'written': 300, 'rejected': 41, 'merged': 257, 'no_rs_files': 37, 'pending': 2, 'dependency_cargo_toml': 79, 'bot_or_ghost_author': 54, 'dependency_title': 1} | total rows 14539
+[01:57:26] benfred/py-spy (15494★): scanning PRs
+[01:58:13] benfred/py-spy: {'scanned': 204, 'written': 76, 'merged': 69, 'no_rs_files': 34, 'bot_or_ghost_author': 65, 'dependency_lockfile': 23, 'dependency_title': 3, 'commit_after_cutoff': 1, 'rejected': 7, 'dependency_cargo_toml': 2} | total rows 14615
+[01:58:13] Y2Z/monolith (15475★): scanning PRs
+[01:59:12] Y2Z/monolith: {'scanned': 186, 'commit_after_cutoff': 1, 'written': 99, 'rejected': 6, 'no_rs_files': 65, 'merged': 93, 'dependency_lockfile': 15, 'dependency_title': 2, 'dependency_cargo_toml': 4} | total rows 14714
+[01:59:12] rust-lang/cargo (15467★): scanning PRs
+[02:00:58] rust-lang/cargo: scanned 250, written 162
+[02:02:34] rust-lang/cargo: {'scanned': 456, 'commit_after_cutoff': 19, 'written': 300, 'rejected': 59, 'merged': 240, 'dependency_cargo_toml': 23, 'no_rs_files': 96, 'bot_or_ghost_author': 7, 'dependency_title': 9, 'dependency_lockfile': 1, 'pending': 1, 'diff_too_large_for_api': 1} | total rows 15014
+[02:02:34] neovide/neovide (15213★): scanning PRs
+[02:03:40] neovide/neovide: {'scanned': 196, 'no_rs_files': 48, 'written': 103, 'merged': 84, 'rejected': 19, 'dependency_lockfile': 42, 'dependency_cargo_toml': 3} | total rows 15117
+[02:03:40] solana-labs/solana (14945★): scanning PRs
+[02:04:30] solana-labs/solana: scanned 250, written 60
+[02:05:22] solana-labs/solana: scanned 500, written 125
+[02:06:21] solana-labs/solana: scanned 750, written 202
+[02:07:27] solana-labs/solana: {'scanned': 977, 'bot_or_ghost_author': 497, 'no_rs_files': 117, 'written': 300, 'merged': 254, 'commit_after_cutoff': 13, 'dependency_lockfile': 32, 'rejected': 46, 'dependency_title': 14, 'dependency_cargo_toml': 3, 'body_edited_after_cutoff': 1} | total rows 15417
+[02:07:27] finished: 15417 rows in result/Rust/human_rust_prs.csv
+[02:07:27] this run: {'scanned': 53361, 'no_rs_files': 27151, 'written': 15417, 'merged': 12747, 'rollup_pr': 48, 'commit_after_cutoff': 465, 'dependency_lockfile': 2440, 'body_edited_after_cutoff': 26, 'rejected': 2629, 'dependency_cargo_toml': 1353, 'bot_or_ghost_author': 6207, 'dependency_title': 191, 'diff_too_large_for_api': 33, 'diff_over_max_bytes': 13, 'pending': 41, 'hit_scan_limit': 2, 'no_commits': 1, 'diff_http_500': 16}
